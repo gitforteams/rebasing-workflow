@@ -13,7 +13,7 @@ Earlier versions of this presentation were delivered from a keynote deck at the 
 - ConFoo, Montreal, 2015
 - OSCON, Portland, 2015
 
-There may be outstanding issues from the conversion to reveal.js. See the [TODO](todo.md) list.
+There may be outstanding issues from the conversion to reveal.js. See the [TODO](TODO.md) list.
 
 ## Viewing the Presentation
 
