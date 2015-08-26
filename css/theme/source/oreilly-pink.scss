@@ -1,0 +1,62 @@
+/**
+ * Theme for reveal.js based on the O'Reilly cover for Git for Teams
+ *
+ * Copyright (C) 2015 Emma Jane Hogbin Westby, http://gitforteams.com
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Fonts
+// you must have a live internet connection during the presentation for Google Fonts!
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,700,400italic,700italic);
+
+// Override theme settings (see ../template/settings.scss)
+
+// Slide BG color
+$backgroundColor: #fff;
+
+// Primary/body text
+$mainFont: 'Open Sans Condensed', sans-serif;
+$mainColor: #666;
+$mainFontSize: 30px;
+
+// Links, Actions, Text Selection
+$linkColor: #000;
+$linkColorHover: lighten( $linkColor, 40% );
+$selectionColor: #fff;
+$selectionBackgroundColor: #ccc;
+
+code {
+  padding: 1px;
+  background-color: #fafafa;
+  color: #000;
+}
+
+// Headings
+$headingFont: 'Open Sans Condensed', Impact, sans-serif;
+$headingColor: #B30A84;
+$headingTextShadow: none;
+$heading1TextShadow: none;
+$headingTextTransform: none;
+$headingLetterSpacing: none;
+$headingMargin: 0 0 20px 0;
+$headingLineHeight: 0.9em;
+
+// Links and actions
+$linkColor: #000;
+$linkColorHover: lighten( $linkColor, 40% );
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// Images
+.reveal section img {
+  border: none;
+  margin: 0;
+  box-shadow: none;
+}
