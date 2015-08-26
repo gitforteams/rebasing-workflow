@@ -8,10 +8,12 @@ Time: 45 minutes
 
 - [OSCON, Amsterdam, 2015](http://oscon.com)
 
-Earlier versions of this presentation were delivered from a keynote deck.
+Earlier versions of this presentation were delivered from a keynote deck at the following events:
 
 - ConFoo, Montreal, 2015
 - OSCON, Portland, 2015
+
+There may be outstanding issues from the conversion to reveal.js. See the [TODO](todo.md) list.
 
 ## Viewing the Presentation
 
