@@ -8,26 +8,36 @@ Time: 45 minutes
 
 - [OSCON, Amsterdam, 2015](http://oscon.com)
 
-## Running the Presenation
+Earlier versions of this presentation were delivered from a keynote deck.
+
+- ConFoo, Montreal, 2015
+- OSCON, Portland, 2015
+
+## Viewing the Presentation
+
+Online:
+
+- [emmajane.github.io/rebasing-workflow](http://emmajane.github.io/rebasing-workflow) is often in sync with this repository
+
+Locally:
 
 - Ensure node.js and grunt are installed.
 - Install dependencies: `npm install`
 - Run the server: `grunt serve`
 - Open http://localhost:8000 to view the presentation
 
-If style changes are made to the SCSS file, you will need to re-create the theme files. Run: `grunt css-themes`
+If style changes are made to the SCSS file, you will need to re-create the theme files.
+
+- Run: `grunt css-themes`
 
 ## License
 
-Content is licensed:
+Content (slides text and diagrams, and CSS theme for the slides):
 
-[Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/), CC-BY
+- Copyright (C) 2015 Emma Jane Hogbin Westby
+- [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/), CC-BY
 
-Copyright (C) 2015 Emma Jane Hogbin Westby
+Slide software (reveal.js):
 
-
-Slides are licensed:
-
-MIT license
-
-Copyright (C) 2014 Hakim El Hattab, http://hakim.se
+- Copyright (C) 2014 Hakim El Hattab, http://hakim.se
+- MIT license
