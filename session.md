@@ -43,7 +43,7 @@ Move my branch-specific commits to a new branch tip.
 Incorporate upstream work without leaving a merge commit.
 
 
-<img alt="incorporate upstream rebase animation" src="assets/rebasing-update-branch.svg" class="inject-me" />
+<img alt="incorporate upstream rebase animation" src="assets/rebasing-update-branch.svg" class="inject_me" />
 
 
 ## What is **Interactive** Rebasing?
@@ -54,13 +54,13 @@ replay a sequence of commits <br/>_while optionally changing each commit_.
 ### Interactive Rebasing Makes History Easier to Read by <br />**Squashing** Related Commits into Whole Ideas
 
 
-![squash rebase animation](assets/rebasing-interactive-squash.svg)
+<img alt="squash rebase animation" src="assets/rebasing-interactive-squash.svg" class="inject_me" />
 
 
 ### Interactive Rebasing Makes History Easier by <br/>**Editing** Unrelated Commits into Separate Ideas
 
 
-![edit commits rebase animation](assets/rebasing-interactive-edit.svg)
+<img alt="edit commits rebase animation" src="assets/rebasing-interactive-edit.svg" class="inject_me" />
 
 
 ## Why the Fuss?<br />Because TIMTOWTDI
@@ -95,12 +95,12 @@ I will love you regardless of which strategy you use.
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
 
-![merge vs. rebase graphs compared](assets/merge-types.svg)
+<img alt="merge vs. rebase graphs compared" src="assets/merge-types.svg" class="inject_me" />
 
 NOTE: Compare graphs from merge and rebase
 
 
-![merge commits allow you to undo badly merged branches](assets/flowchart-undo-merge.svg)
+<img alt="merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge.svg" class="inject_me" />
 
 
 ## HOWTO...

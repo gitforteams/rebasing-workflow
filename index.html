@@ -17,18 +17,10 @@
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/oreilly-pink.css" id="theme">
 
-		<!-- allow external style sheets to be loaded into SVG diagrams -->
-		<script src="svg-injector.min.js"></script>
-                <script>
-			// Elements to inject
-			var mySVGsToInject = document.querySelectorAll('img.inject-me');
-			// Do the injection
-			SVGInjector(mySVGsToInject);
-		</script>
-
 		<!-- For syntax highlighting -->
 		<!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
 
+		<!-- Printing and PDF exports -->
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
@@ -88,6 +80,10 @@
 			});
 
 		</script>
+		
+		<!-- allow external style sheets to be loaded into SVG diagrams -->
+		<script type="text/javascript" src="node_modules/svg-injector/svg-injector.js"></script>
+		<script type="text/javascript" src="inject_me.js"></script>
 
 	</body>
 </html>

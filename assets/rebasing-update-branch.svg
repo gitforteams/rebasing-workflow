@@ -8,7 +8,7 @@ preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <defs>
-  <style type="text/css">@import url('svg-styles.css')</style>
+  <style type="text/css">@import url('assets/svg-styles.css')</style>
 
   <marker id='head' orient='auto' markerWidth='2' markerHeight='8' refX='0.1' refY='2'>
     <path d='M0,0 V4 L2,2 Z' fill='gray' />
