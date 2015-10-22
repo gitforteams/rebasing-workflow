@@ -17,6 +17,15 @@
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/oreilly-pink.css" id="theme">
 
+		<!-- allow external style sheets to be loaded into SVG diagrams -->
+		<script src="svg-injector.min.js"></script>
+                <script>
+			// Elements to inject
+			var mySVGsToInject = document.querySelectorAll('img.inject-me');
+			// Do the injection
+			SVGInjector(mySVGsToInject);
+		</script>
+
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
