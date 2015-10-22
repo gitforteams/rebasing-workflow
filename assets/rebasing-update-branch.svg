@@ -8,19 +8,26 @@ preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <defs>
-  <style type="text/css"><![CDATA[   
+  <style type="text/css"><![CDATA[
   text {
-    font-size: 10pt;
+    font-size: 8pt;
+    font-family: "Open Sans Condensed";
+    fill: #666;
   }
   text.heading {
     font-size: 150%;
   }
   .commit-master {
-    fill: orange;
+    fill: #B30A84;
     opacity: .95;
     stroke: black;
     stroke-width: 1;
   }
+
+  .commit-feature {
+    fill: #FF5E99;
+  }
+
   ]]></style>
 
   <marker id='head' orient='auto' markerWidth='2' markerHeight='8' refX='0.1' refY='2'>
@@ -118,7 +125,7 @@ Rebasing:
   fill="freeze" />
 </g>
 
-<circle id="feature-commit1" r="5" cx="40" cy="175" fill="red" opacity="0"/>
+<circle id="feature-commit1" r="5" cx="40" cy="175" fill="#FF5E99" opacity="0"/>
 <animate xlink:href="#feature-commit1" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
@@ -132,7 +139,7 @@ Rebasing:
   begin="6s"
   fill="freeze" />
 
-<circle id="feature-commit2" r="5" cx="40" cy="160" fill="red" opacity="0"/>
+<circle id="feature-commit2" r="5" cx="40" cy="160" fill="#FF5E99" opacity="0"/>
 <animate xlink:href="#feature-commit2" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
@@ -146,7 +153,7 @@ Rebasing:
   begin="6s"
   fill="freeze" />
 
-<circle id="feature-commit3" r="5" cx="40" cy="145" fill="red" opacity="0"/>
+<circle id="feature-commit3" r="5" cx="40" cy="145" fill="#FF5E99" opacity="0"/>
 <animate xlink:href="#feature-commit3" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
@@ -162,7 +169,8 @@ Rebasing:
 
 <g opacity="0">
   <text x="60" y="140" opacity="0">updated upstream head ... really means ...</text>
-  <text x="60" y="160">(re)start branch at most recent upstream commit</text>
+  <text x="60" y="180" opacity="0">identify new upstream branch tip</text>
+  <text x="60" y="140">slide branch base to latest upstream commit</text>
   <animate attributeType="CSS" attributeName="opacity"
     from="0"
     to="1"
@@ -172,8 +180,8 @@ Rebasing:
 </g>
 
 <g opacity="0">
-  <text x="60" y="100">apply commits to new branch tip</text>
-  <text x="60" y="115" fill="grey">(creates new commit objects)</text>
+  <text x="60" y="100">add work from your commits</text>
+  <!-- <text x="60" y="115" fill="grey">This creates new commit objects.</text> -->
   <animate attributeTube="CSS" attributeName="opacity"
     from="0"
     to="1"
@@ -182,21 +190,21 @@ Rebasing:
     fill="freeze" />
 </g>
 
-<circle id="feature-rebase-commit1" r="5" cx="40" cy="120" fill="red" stroke="grey" stroke-width="1" opacity="0"/>
+<circle id="feature-rebase-commit1" r="5" cx="40" cy="120" fill="#FF5E99" stroke="grey" stroke-width="1" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit1" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
   begin="8s"
   fill="freeze" />
-<circle id="feature-rebase-commit2" r="5" cx="40" cy="105" fill="red" stroke="grey" stroke-width="1" opacity="0"/>
+<circle id="feature-rebase-commit2" r="5" cx="40" cy="105" fill="#FF5E99" stroke="grey" stroke-width="1" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit2" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
   begin="8.5s"
   fill="freeze" />
-<circle id="feature-rebase-commit3" r="5" cx="40" cy="90" fill="red" stroke="grey" stroke-width="1" opacity="0"/>
+<circle id="feature-rebase-commit3" r="5" cx="40" cy="90" fill="#FF5E99" stroke="grey" stroke-width="1" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit3" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
