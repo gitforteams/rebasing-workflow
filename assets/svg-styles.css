@@ -1,0 +1,58 @@
+text {
+  font-size: 8pt;
+  font-family: "Open Sans Condensed";
+  fill: #666;
+}
+
+text.heading {
+  font-size: 150%;
+}
+
+.commit {
+  r: 5;
+}
+
+.commit-master {
+  cx: 20;
+  fill: #B30A84;
+  opacity: .95;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.commit-feature {
+  cx: 40;
+  fill: #FF5E99;
+}
+ 
+.commit.rebased { 
+  stroke: black;
+  stroke-width: 1;
+}
+
+.rebased {
+  fill: #FF5E99;
+}
+
+.commit.fixup {
+  fill: red;
+}
+
+text.rebased {
+  fill: black;
+}
+
+.flowchart {
+  font-family: Open Sans;
+  font-weight: normal;
+  text-align: center;
+}
+
+.flowchart.instruction {
+  text-align: left;
+  text-anchor: left;
+}
+
+.flowchart.label {
+  text-anchor: middle
+}

@@ -8,22 +8,24 @@ preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <defs>
-  <style type="text/css"><![CDATA[
-    text {
-      font-size: 8pt;
-      font-family: "Open Sans Condensed";
-      fill: #666;
-    }
-    .diagram-label { font-size: 5pt }
-    .diagram-heading { font-size: 25pt }
-  ]]></style>
+  <style type="text/css">
+    @import url('svg-styles.css');
+    
+    <!-- style overrides -->
+    <![CDATA[
+    #commit1 { fill: pink; }
+    #commit2 { fill: yellow; }
+    #commit3 { fill: orange; }
+    #commit4 { fill: red; }
+    ]]>
+  </style>
 
   <marker id='head' orient='auto' markerWidth='2' markerHeight='8' refX='0.1' refY='2'>
     <path d='M0,0 V4 L2,2 Z' fill='gray' />
   </marker>
 </defs>
 
-<text x="10" y="40" class="diagram-heading">
+<text x="10" y="40" class="heading">
 Interactive Rebasing
 </text>
 
@@ -31,18 +33,20 @@ Interactive Rebasing
 Squash working commits into a whole idea.
 </text>
 
+<!--
 <line x1="0" y1="230"
     x2="0" y2="70"
     stroke="gray"
     stroke-width="1"
     marker-end="url(#head)" />
 
-<text id="time-axis" class="diagram-label"
+<text id="time-axis" class="label"
     x="10" y="180"
     transform="rotate(-90 -5,180)"
     fill="gray">
   commits over time
 </text>
+-->
 
 <line x1="20" y1="70" 
     x2="20" y2="230" 
@@ -56,13 +60,13 @@ Squash working commits into a whole idea.
     dur="1s"
     begin="7s"
     fill="freeze" />
-    [#348] Add function to animate command
+    [#348] Animate SVG diagram to show rebase --interactive squash
 </text>
 
 <g opacity="0">
-<circle id="commit1" r="10" cx="20" cy="210" fill="orange" opacity="0.7"/>
+<circle id="commit1" class="commit commit-master" cy="210" opacity="0.7"/>
 <text id="message1" x="40" y="215">
-  Function added. Not yet tested.
+  Animation added. Not yet tested.
 </text>
 <animate attributeType="CSS" attributeName="opacity"
   from="0"
@@ -73,7 +77,7 @@ Squash working commits into a whole idea.
 </g>
 
 <g opacity="0">
-<circle id="commit2" r="10" cx="20" cy="180" fill="yellow" opacity="0.7"/>
+<circle id="commit2" class="commit commit-master" cy="180" opacity="0.7"/>
 <text id="message2" x="40" y="185">
   Missing parameter.
 </text>
@@ -86,7 +90,7 @@ Squash working commits into a whole idea.
 </g>
 
 <g opacity="0">
-<circle id="commit3" r="10" cx="20" cy="150" fill="pink" opacity="0.7"/>
+<circle id="commit3" class="commit commit-master" cy="150" opacity="0.7"/>
 <text id="message3" x="40" y="155">
   Uggh.
 </text>
@@ -99,7 +103,7 @@ Squash working commits into a whole idea.
 </g>
 
 <g opacity="0">
-<circle id="commit4" r="10" cx="20" cy="120" fill="red" opacity="0.7"/>
+<circle id="commit4" class="commit commit-master" cy="120" opacity="0.7"/>
 <text id="message4" x="40" y="125">
   Fixing typo.
 <animate attributeType="CSS" attributeName="opacity"
@@ -184,6 +188,15 @@ Squash working commits into a whole idea.
     fill="freeze" 
     repeatCount="1"
     id="commit4-anim" />
+<animate 
+    xlink:href="#commit4"
+    attributeName="fill" 
+    to="blue" 
+    dur="1s"
+    begin="7s"
+    fill="freeze" 
+    repeatCount="1"
+    id="commit4-colour-anim" />
 
 <animate xlink:href="#message4"
     attributeType="CSS" attributeName="opacity"

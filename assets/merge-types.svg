@@ -1,58 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<!-- Mostly created with Inkscape (http://www.inkscape.org/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg-merge-types"
-   height="600"
-   width="800"
-   viewbox="0 0 1600 900"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="merge-types.svg"
-   version="1.1"
-   inkscape:export-filename="/Users/emmajane/Desktop/merge-types.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="1"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1234"
-     inkscape:window-height="861"
-     id="namedview6623"
-     showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="414.32919"
-     inkscape:cy="302.66332"
-     inkscape:window-x="86"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g5544"
-     units="px"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       position="503,1156.7993"
-       orientation="0,1"
-       id="guide12676" />
-  </sodipodi:namedview>
-  <defs
-     id="defs4">
+width="1000px"
+height="800px"
+viewBox="10 0 600 600"
+preserveAspectRatio="xMidYMid meet"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+version="1.1"
+inkscape:version="0.91 r13725"
+sodipodi:docname="merge-types.svg">
+
+<defs>
+<style type="text/css">@import url('svg-styles.css')</style>
     <marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
@@ -244,7 +211,7 @@
      line-height="125%"
      font-size="11.25px"
      xml:space="preserve"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+     class="flowchart"
      id="text17090-43-4"><tspan
        x="64.995705"
        y="508.44922"
@@ -255,7 +222,7 @@
      font-size="11.25px"
      xml:space="preserve"
      line-height="125%"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+     class="flowchart"
      id="flowRoot17352"><flowRegion
        id="flowRegion17354"><rect
          x="147.86"
@@ -269,7 +236,7 @@
      font-size="11.25px"
      xml:space="preserve"
      line-height="125%"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+     class="flowchart"
      id="flowRoot17352-6"><flowRegion
        id="flowRegion17354-2"><rect
          x="147.86"
@@ -282,7 +249,7 @@
      line-height="125%"
      font-size="11.25px"
      xml:space="preserve"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000"
+     class="flowchart"
      id="flowRoot6390"
      transform="translate(3.3801879,-43.046549)"><flowRegion
        id="flowRegion6392"><rect
@@ -297,7 +264,7 @@
      font-size="11.25px"
      xml:space="preserve"
      line-height="125%"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+     class="flowchart"
      id="flowRoot17352-6-6"><flowRegion
        id="flowRegion17354-2-8"><rect
          x="147.86"
@@ -307,7 +274,7 @@
          id="rect17356-7-5" /></flowRegion><flowPara
        id="flowPara17358-6-2" /></flowRoot>  <text
      id="text17090-43-5-6"
-     style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+     class="flowchart"
      xml:space="preserve"
      font-size="11.25px"
      line-height="125%"
@@ -320,7 +287,7 @@
        x="619.30157" /></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     class="flowchart"
      x="580.25305"
      y="633.33142"
      id="text6903-6"
@@ -331,7 +298,7 @@
        id="tspan6907-9" /></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     class="flowchart"
      x="602.09131"
      y="847.67432"
      id="text8497"
@@ -377,7 +344,7 @@
            line-height="125%"
            font-size="11.25px"
            xml:space="preserve"
-           style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+           class="flowchart"
            id="text17090-43"><tspan
              x="108.81607"
              y="74.516266"
@@ -432,7 +399,7 @@
            line-height="125%"
            font-size="11.25px"
            xml:space="preserve"
-           style="font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';letter-spacing:0px;word-spacing:0px;fill:#000000"
+           class="flowchart"
            id="text17090-43-5"><tspan
              x="180.24274"
              y="29.742929"
@@ -441,16 +408,16 @@
            sodipodi:linespacing="125%"
            id="text6903"
            y="120.69667"
-           x="157.1942"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="50"
+           class="flowchart instruction"
            xml:space="preserve"><tspan
              y="120.69667"
-             x="157.1942"
+             x="50"
              id="tspan6905"
              sodipodi:role="line">additional commits will</tspan><tspan
              id="tspan6907"
              y="134.75917"
-             x="157.1942"
+             x="50"
              sodipodi:role="line">prevent fast-forward merge</tspan></text>
       </g>
       <rect
@@ -466,7 +433,7 @@
          id="g11584">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           class="flowchart"
            x="-160.30391"
            y="33.901581"
            id="text11522"
@@ -480,7 +447,7 @@
    id="tspan11550">Scenario</tspan>: Merge New Work Into the Upstream Branch.</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:92.00000167%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           class="flowchart"
            x="-160.2664"
            y="66.270325"
            id="text11522-1"
@@ -509,7 +476,7 @@
            id="g5653">
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:110.00000238%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             class="flowchart"
              x="741.99493"
              y="167.08008"
              id="text8501-3"
@@ -615,7 +582,7 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             class="flowchart"
              x="607.89282"
              y="60.293915"
              id="text5716"
@@ -646,7 +613,7 @@
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21887386;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:92.00000167%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           class="flowchart"
            x="9.1309528"
            y="385.15002"
            id="text11522-1-8"
@@ -750,17 +717,16 @@
             <flowRoot
                xml:space="preserve"
                id="flowRoot4503"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
-                 id="flowRegion4505"><rect
+               class="flowchart"><rect
                    id="rect4507"
                    width="0"
                    height="14.224238"
                    x="79.526421"
-                   y="365.55847" /></flowRegion><flowPara
-                 id="flowPara4509" /></flowRoot>          </g>
+                   y="365.55847" />
+                 </flowRoot>          </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             class="flowchart"
              x="189.27914"
              y="31.496317"
              id="text7025"
@@ -794,7 +760,6 @@
            id="text4315"
            y="385.00003"
            x="406.28989"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:11.25px;line-height:125%;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              id="tspan4327"
              style="font-size:18.75px;text-align:start;text-anchor:start"

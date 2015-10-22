@@ -95,12 +95,12 @@ I will love you regardless of which strategy you use.
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
 
-![merge vs. rebase graphs compared](assets/merge-types.png)
+![merge vs. rebase graphs compared](assets/merge-types.svg)
 
 NOTE: Compare graphs from merge and rebase
 
 
-![merge commits allow you to undo badly merged branches](assets/flowchart-undo-merge.png)
+![merge commits allow you to undo badly merged branches](assets/flowchart-undo-merge.svg)
 
 
 ## HOWTO...
@@ -168,12 +168,10 @@ Why I don't like rebasing.
 
 ## Historical Revisionism
 
-![shark attacks helicopter](assets/)
-
 
 ## Git is Commit-Aware;<br />Not Branch Aware
 
-![gitK screenshot](assets/)
+![gitK screenshot](assets/git-log-graphical.png)
 
 Note: Git is commit-aware. Not Branch aware. That means every single commit is always visible. Nothing is collapsible in the default UIs. Information about parents are retained, sort of, but you have to do your merges in a very specific way to take advantage of it.
 
