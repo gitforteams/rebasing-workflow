@@ -32,9 +32,11 @@ If style changes are made to the SCSS file, you will need to re-create the theme
 
 - Run: `grunt css-themes`
 
+If you will not have an internet connection for your presentation, make sure the Google Font Open Sans Condensed is installed locally. For your convenience, it is included in the folder `assets/fonts/open-sans` and is licensed separately.
+
 ## License
 
-Content (slides text and diagrams, and CSS theme for the slides):
+Content (slides text, diagrams, and CSS theme for the slides):
 
 - Copyright (C) 2015 Emma Jane Hogbin Westby
 - [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/), CC-BY
@@ -43,3 +45,8 @@ Slide software (reveal.js):
 
 - Copyright (C) 2014 Hakim El Hattab, http://hakim.se
 - MIT license
+
+Fonts (Open Sans family):
+
+- Copyright (C) Google
+- Apache License
