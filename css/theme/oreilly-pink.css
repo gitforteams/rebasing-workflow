@@ -4,9 +4,34 @@
  * Copyright (C) 2015 Emma Jane Hogbin Westby, http://gitforteams.com
  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,700,400italic,700italic);
+a:href {
+  text-decoration: underline; }
+
+.reveal img[src$="png"] {
+  max-height: 80%; }
+
+.reveal img[src$="png"] {
+  max-width: 80%; }
+
+.reveal img[alt=cover_illustration] {
+  height: 300px; }
+
+.reveal img[alt$=small] {
+  max-height: 600px; }
+
 code {
   padding: 1px;
   background-color: #fafafa;
+  color: #000; }
+
+.reveal li strong {
+  color: #999; }
+
+.reveal h1 strong, .reveal h2 strong, .reveal h3 strong {
+  color: #7e167e; }
+
+.reveal em, .reveal i {
+  font-style: normal;
   color: #000; }
 
 /*********************************************
@@ -40,7 +65,7 @@ body {
   margin: 0 0 20px 0;
   color: #B30A84;
   font-family: "Open Sans Condensed", Impact, sans-serif;
-  line-height: 0.9em;
+  line-height: normal;
   letter-spacing: none;
   text-transform: none;
   text-shadow: none; }
@@ -143,5 +168,23 @@ body {
   border: none;
   margin: 0;
   box-shadow: none; }
+
+.reveal ol, .reveal ul, .reveal dl {
+  margin: 0; }
+
+.reveal ol {
+  width: 50%; }
+
+.reveal pre code {
+  font-size: 1.5em;
+  max-height: inherit;
+  overflow: none;
+  padding: 15px; }
+
+.reveal pre code span {
+  line-height: 1.3em; }
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled, .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-bottom-color: #ddd; }
 
 /*# sourceMappingURL=oreilly-pink.css.map */

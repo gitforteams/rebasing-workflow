@@ -29,6 +29,11 @@ $linkColor: #000;
 $linkColorHover: lighten( $linkColor, 40% );
 $selectionColor: #fff;
 $selectionBackgroundColor: #ccc;
+a:href { text-decoration: underline; }
+.reveal img[src$="png"] { max-height: 80%; }
+.reveal img[src$="png"] { max-width: 80%; }
+.reveal img[alt=cover_illustration] { height: 300px; }
+.reveal img[alt$=small] { max-height: 600px; }
 
 code {
   padding: 1px;
@@ -44,7 +49,21 @@ $heading1TextShadow: none;
 $headingTextTransform: none;
 $headingLetterSpacing: none;
 $headingMargin: 0 0 20px 0;
-$headingLineHeight: 0.9em;
+$headingLineHeight: normal;
+
+.reveal li strong {
+  color: #999;
+}
+
+.reveal h1 strong, .reveal h2 strong, .reveal h3 strong {
+  color: #7e167e;
+}
+
+.reveal em, .reveal i {
+  font-style: normal;
+  color: #000;
+}
+
 
 // Links and actions
 $linkColor: #000;
@@ -59,4 +78,30 @@ $linkColorHover: lighten( $linkColor, 40% );
   border: none;
   margin: 0;
   box-shadow: none;
+}
+
+// Lists
+.reveal ol, .reveal ul, .reveal dl {
+  margin: 0;
+}
+
+.reveal ol {
+  width: 50%;
+}
+
+// Code
+.reveal pre code {
+  font-size: 1.5em;
+  max-height: inherit;
+  overflow: none;
+  padding: 15px;
+}
+
+.reveal pre code span {
+  line-height: 1.3em;
+}
+
+// Controls
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled, .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-bottom-color: #ddd;
 }
