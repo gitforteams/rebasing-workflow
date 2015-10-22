@@ -4,6 +4,9 @@
 
 www.gitforteams.com
 
+[![cover_illustration](assets/gitforteams-cover.png)](http://shop.oreilly.com/product/0636920034520.do?cmp=af-prog-books-videos-product_cj_auwidget674_0636920034520_4470479)
+[![cover_illustration](assets/collabwithgit-cover.gif)](http://shop.oreilly.com/product/0636920034872.do?cmp=af-prog-books-videos-product_cj_auwidget671_0636920034872_4470479)
+
 
 # Agenda
 
@@ -22,41 +25,39 @@ www.gitforteams.com
 ## What is Rebasing?
 
 
-### Official Definition
+### Rebasing: Official Definition
 
 Forward-port local commits to the updated upstream head.
 
 
-### English (ish) Definition
+# o_O
+
+
+### Rebasing: English (ish) Definition
 
 Move my branch-specific commits to a new branch tip.
 
 
-### The Outcome -- English (ish)
+### Why We Rebase
 
 Incorporate upstream work without leaving a merge commit.
 
 
-![incorporate upstream rebase animation](assets/rebasing-update-branch.svg)
+<img alt="incorporate upstream rebase animation" src="assets/rebasing-update-branch.svg" class="inject-me" />
 
 
-## What is **Interactive Rebasing**?
+## What is **Interactive** Rebasing?
 
-**Normal rebasing:** replay a sequence of commits.
-
-**Interactive rebasing:** replay a sequence of commits <br/>while _optionally_ changing each commit.
+replay a sequence of commits <br/>_while optionally changing each commit_.
 
 
-![interactive rebase replays commits](assets/rebasing-update-branch-replay.svg)
-
-
-### Make History Easier to Read by **Squashing** Related Commits into Whole Ideas
+### Interactive Rebasing Makes History Easier to Read by <br />**Squashing** Related Commits into Whole Ideas
 
 
 ![squash rebase animation](assets/rebasing-interactive-squash.svg)
 
 
-### Simplify History by **Editing** Unrelated Commits into Discrete Ideas
+### Interactive Rebasing Makes History Easier by <br/>**Editing** Unrelated Commits into Separate Ideas
 
 
 ![edit commits rebase animation](assets/rebasing-interactive-edit.svg)
@@ -94,7 +95,7 @@ I will love you regardless of which strategy you use.
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
 
-![merge vs. rebase graphs compared](assets/merge-types.svg)
+![merge vs. rebase graphs compared](assets/merge-types.png)
 
 NOTE: Compare graphs from merge and rebase
 
@@ -116,12 +117,11 @@ $ git rebase master
 
 ### ... Manipulate a Series of Commits?
 
-````
-$ git checkout my_local_branch
-$ git rebase --interactive [commit]
-````
+    $ git checkout my_local_branch
+    $ git rebase --interactive [commit]
 
-Choose from the following options:
+
+### Choose from the following options:
 
 - `pick`: leave as-is (default)
 - `edit`: separate commit into several discrete commits
@@ -216,11 +216,12 @@ Note: With a Web-based interface, we’re now seeing a lot more conversations ha
 - Rebasing can be used interactively to reshape a series of commits.
 
 
-## www.gitforteams.com
 
-Emma Jane Hogbin Westby
+## Resources
 
-@emmajanehw
+[![cover_illustration](assets/gitforteams-cover.png)](http://shop.oreilly.com/product/0636920034520.do?cmp=af-prog-books-videos-product_cj_auwidget674_0636920034520_4470479)
+[![cover_illustration](assets/collabwithgit-cover.gif)](http://shop.oreilly.com/product/0636920034872.do?cmp=af-prog-books-videos-product_cj_auwidget671_0636920034872_4470479)
 
-![book cover]
-![video cover]
+Twitter: @emmajanehw
+
+Web: gitforteams.com
