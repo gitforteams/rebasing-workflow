@@ -3,9 +3,10 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 width="1000px"
 height="800px"
-viewBox="10 0 300 300"
+viewBox="10 0 350 320"
 preserveAspectRatio="xMidYMid meet"
-xmlns:xlink="http://www.w3.org/1999/xlink">
+xmlns:xlink="http://www.w3.org/1999/xlink"
+id="rebase-interactive-edit">
 
 <defs>
   <style type="text/css">
@@ -35,261 +36,182 @@ Edit commits to separate into unique ideas.
     stroke-width="2"/>
 
 <g opacity="">
-<circle id="commit1" class="commit commit-master" cy="175" opacity="0.7"/>
-<text id="message1" x="40" y="180">
+<circle id="edit-commit1" class="commit commit-master" cy="175" opacity="0.7"/>
+<text id="edit-message1" x="40" y="180">
     [#303] Add diagram for merge types
 </text>
 <animate attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur="1s"
-  begin="1s"
+  begin="rebase-interactive-edit.click + 1s"
   fill="freeze" />
 </g>
 
-<g opacity="" id="commit2-object">
-<circle id="commit2" class="commit commit-master fixup" cy="145" opacity="0.7"/>
-<text id="message2" x="40" y="150">
+<g opacity="" id="edit-commit2-object">
+<circle id="edit-commit2" class="commit commit-master fixup" cy="145" opacity="0.7"/>
+<text id="edit-message2" x="40" y="150">
     New diagram for rebase + style sheet cleanup
 </text>
 <animate attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur="1s"
-  begin="2s"
+  begin="rebase-interactive-edit.click + 2s"
   fill="freeze" />
+<!-- drop the single commit2 off the DAG -->
+<animate
+    xlink:href="#edit-commit2"
+    attributeName="cy"
+    to="225"
+    dur="1s"
+    begin="rebase-interactive-edit.click + 5s"
+    fill="freeze"
+    repeatCount="1"/>
+<animate 
+    xlink:href="#edit-message2"
+    attributeName="y"
+    to="230"
+    dur="1s"
+    begin="rebase-interactive-edit.click + 5s"
+    fill="freeze" 
+    repeatCount="1" />
+<animate
+    xlink:href="#edit-message2"
+    attributeType="CSS" attributeName="opacity"
+    from=".2"
+    to=".5"
+    dur="1s"
+    begin="rebase-interactive-edit.click + 6s"
+    fill="freeze" />
 </g>
 
 <g opacity="">
-<circle id="commit3" class="commit commit-master" cy="115" opacity="0.7"/>
-<text id="message3" x="40" y="120">
+<circle id="edit-commit3" class="commit commit-master" cy="115" opacity="0.7"/>
+<text id="edit-message3" x="40" y="120">
     [#308] Add diagram for squashing commits 
 </text>
 <animate attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur="1s"
-  begin="3s"
+  begin="rebase-interactive-edit.click + 3s"
   fill="freeze" />
 </g>
 
 <g opacity="">
-<circle id="commit4" class="commit commit-master" cy="85" opacity="0.7"/>
-<text id="message4" x="40" y="90">
+<circle id="edit-commit4" class="commit commit-master" cy="85" opacity="0.7"/>
+<text id="edit-message4" x="40" y="90">
   [#321] Add cover illustration for book
 </text>
 <animate attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur="1s"
-  begin="4s"
+  begin="rebase-interactive-edit.click + 4s"
   fill="freeze" />
 </g>
 
-<!--
-<g opacity="">
-<circle id="commit5" class="commit commit-master" cy="55" opacity="0.7"/>
-<text id="message5" x="40" y="60" opacity="">
-  <animate attributeType="CSS" attributeName="opacity"
-    from="0"
-    to="1"
-    dur="1s"
-    begin="5s"
-    fill="freeze" />
-    [#308] Add diagram for rebase interactive squash
-</text>
-</g>
--->
-
-<g opacity="0" id="commit6-object">
-<circle id="commit6" class="commit commit-master rebased" cy="138" opacity="1"/>
-<text id="message6" class="rebased" x="40" y="143">
+<g opacity="0" id="edit-commit6-object">
+<circle id="edit-commit6" class="commit commit-master rebased" cy="138" opacity="1"/>
+<text id="edit-message6" class="rebased" x="40" y="143">
     [#312] Use external style sheet for SVG diagrams
 </text>
 </g>
 
-<g opacity="0" id="commit7-object">
-<circle id="commit7" class="commit commit-master rebased" cy="157" opacity="1"/>
-<text id="message7" class="rebased" x="40" y="162">
+<g opacity="0" id="edit-commit7-object">
+<circle id="edit-commit7" class="commit commit-master rebased" cy="157" opacity="1"/>
+<text id="edit-message7" class="rebased" x="40" y="162">
     [#314] Add diagram for rebase --interactive edit 
 </text>
 </g>
 
-<!-- blink through each of the commits -->
-<animate
-    xlink:href="#commit1"
-    attributeName="cy"
-    dur="3s"
-    begin="5s"
-    fill="freeze" 
-    repeatCount="1"
-    id="commit1-anim" />
-<animate 
-    xlink:href="#commit2"
-    attributeName="cy" 
-    dur="3s"
-    begin="5s"
-    fill="freeze" 
-    repeatCount="1"
-    id="commit2-anim" />
-<animate 
-    xlink:href="#commit3"
-    attributeName="cy" 
-    dur="3s"
-    begin="5s"
-    fill="freeze" 
-    repeatCount="1"
-    id="commit3-anim" />
-<animate 
-    xlink:href="#commit4"
-    attributeName="cy" 
-    dur="3s"
-    begin="5s"
-    fill="freeze" 
-    repeatCount="1"
-    id="commit4-anim" />
-
 <!-- decrease the prominence of the commits we're not changing -->
-<animate xlink:href="#message1"
+<animate xlink:href="#edit-message1"
     attributeType="CSS" attributeName="opacity"
     from="1"
     to=".2"
     dur="1s"
-    begin="5s"
-    fill="freeze" 
-    id="message1-anim" />
-<animate xlink:href="#message3"
-    attributeType="CSS" attributeName="opacity"
-    from="1"
-    to=".2"
-    dur="2.5s"
-    begin="5s"
-    fill="freeze" 
-    id="message3-anim" />
-<animate xlink:href="#message4"
-    attributeType="CSS" attributeName="opacity"
-    from="1"
-    to=".2"
-    dur="2.5s"
-    begin="5s"
-    fill="freeze" 
-    id="message4-anim" />
-<animate xlink:href="#message5"
-    attributeType="CSS" attributeName="opacity"
-    from="1"
-    to=".2"
-    dur="2.5s"
-    begin="5s"
-    fill="freeze" 
-    id="message5-anim" />
-
-<!-- separate the single commit2 into commits 6 and 7 -->
-<animate
-    xlink:href="#message2"
-    attributeType="CSS" attributeName="opacity"
-    from="1"
-    to="0"
-    dur="2.5s"
-    begin="5s"
+    begin="rebase-interactive-edit.click + 5s"
     fill="freeze" />
-<animate
-    xlink:href="#commit2"
-    attributeName="cy"
-    to="225"
-    dur="1s"
-    begin="5s"
-    fill="freeze"
-    repeatCount="1"
-    id="commit2-position-anim" />
-<animate 
-    xlink:href="#message2"
-    attributeName="y"
-    to="230"
-    dur="1s"
-    begin="5s"
-    fill="freeze" 
-    repeatCount="1"
-    id="message2-position-anim" />
-<animate
-    xlink:href="#message2"
+<animate xlink:href="#edit-message3"
     attributeType="CSS" attributeName="opacity"
-    from=".2"
-    to=".5"
-    dur="1s"
-    begin="6s"
+    from="1"
+    to=".2"
+    dur="2.5s"
+    begin="rebase-interactive-edit.click + 5s"
+    fill="freeze" />
+<animate xlink:href="#edit-message4"
+    attributeType="CSS" attributeName="opacity"
+    from="1"
+    to=".2"
+    dur="2.5s"
+    begin="rebase-interactive-edit.click + 5s"
+    fill="freeze" />
+<animate xlink:href="#edit-message5"
+    attributeType="CSS" attributeName="opacity"
+    from="1"
+    to=".2"
+    dur="2.5s"
+    begin="rebase-interactive-edit.click + 5s"
     fill="freeze" />
 
+<!-- add commits 6 and 7 to replace commit2 -->
 <animate 
-    xlink:href="#commit6-object"
+    xlink:href="#edit-commit6-object"
     attributeName="opacity" 
     to="1" 
     dur=".5s"
-    begin="9s"
+    begin="rebase-interactive-edit.click + 9s"
     fill="freeze" 
-    repeatCount="1"
-    id="commit6-anim" />
-
+    repeatCount="1" />
 <animate 
-    xlink:href="#commit7-object"
+    xlink:href="#edit-commit7-object"
     attributeName="opacity" 
     to="1" 
     dur=".5s"
-    begin="8s"
+    begin="rebase-interactive-edit.click + 8s"
     fill="freeze" 
-    repeatCount="1"
-    id="commit7-anim" />
+    repeatCount="1" />
 
 <!-- darken the commit message for all items in the new DAG -->
-<animate xlink:href="#message1"
+<animate xlink:href="#edit-message1"
     attributeType="CSS" attributeName="opacity"
     to="1"
     dur=".5s"
-    begin="7s"
-    fill="freeze" 
-    id="message1-anim-addtodag" />
-<animate xlink:href="#message3"
+    begin="rebase-interactive-edit.click + 7s"
+    fill="freeze" />
+<animate xlink:href="#edit-message3"
     attributeType="CSS" attributeName="opacity"
     to="1"
     dur=".5s"
-    begin="10s"
-    fill="freeze" 
-    id="message3-anim-addtodag" />
-<animate xlink:href="#message4"
+    begin="rebase-interactive-edit.click + 10s"
+    fill="freeze" />
+<animate xlink:href="#edit-message4"
     attributeType="CSS" attributeName="opacity"
     to="1"
     dur=".5s"
-    begin="11s"
-    fill="freeze" 
-    id="message4-anim-addtodag" />
-<animate xlink:href="#message5"
+    begin="rebase-interactive-edit.click + 11s"
+    fill="freeze" />
+<animate xlink:href="#edit-message5"
     attributeType="CSS" attributeName="opacity"
     to="1"
     dur=".5s"
-    begin="12s"
-    fill="freeze" 
-    id="message5-anim-addtodag" />
+    begin="rebase-interactive-edit.click + 12s"
+    fill="freeze" />
 
 <!-- update the commit colours to reflect new commit hash -->
-<animate xlink:href="#commit3"
+<animate xlink:href="#edit-commit3"
     attributeType="CSS" attributeName="fill"
     to="pink"
     dur=".5s"
-    begin="10s"
-    fill="freeze" 
-    id="commit3-anim-addtodag-rebased" />
-<animate xlink:href="#commit4"
+    begin="rebase-interactive-edit.click + 10s"
+    fill="freeze" />
+<animate xlink:href="#edit-commit4"
     attributeType="CSS" attributeName="fill"
     to="pink"
     dur=".5s"
-    begin="11s"
-    fill="freeze" 
-    id="commit4-anim-addtodag-rebased" />
-<animate xlink:href="#commit5"
-    attributeType="CSS" attributeName="fill"
-    to="pink"
-    dur=".5s"
-    begin="12s"
-    fill="freeze" 
-    id="commit5-anim-addtodag-rebased" />
+    begin="rebase-interactive-edit.click + 11s"
+    fill="freeze" />
 
 </svg>
