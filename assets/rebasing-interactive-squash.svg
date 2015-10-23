@@ -3,9 +3,10 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 width="1000px"
 height="800px"
-viewBox="10 0 300 300"
+viewBox="10 0 350 320"
 preserveAspectRatio="xMidYMid meet"
-xmlns:xlink="http://www.w3.org/1999/xlink">
+xmlns:xlink="http://www.w3.org/1999/xlink"
+id="rebasing-anim-squash">
 
 <defs>
   <style type="text/css">
@@ -13,10 +14,10 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
     
     <!-- style overrides -->
     <![CDATA[
-    #commit1 { fill: pink; }
-    #commit2 { fill: yellow; }
-    #commit3 { fill: orange; }
-    #commit4 { fill: red; }
+    #rebasing-anim-squash #commit1 { fill: pink; }
+    #rebasing-anim-squash #commit2 { fill: yellow; }
+    #rebasing-anim-squash #commit3 { fill: orange; }
+    #rebasing-anim-squash #commit4 { fill: red; }
     ]]>
   </style>
 
@@ -58,7 +59,7 @@ Squash working commits into a whole idea.
     from="0"
     to="1"
     dur="1s"
-    begin="7s"
+    begin="rebasing-anim-squash.click + 7s"
     fill="freeze" />
     [#348] Animate SVG diagram to show rebase --interactive squash
 </text>
@@ -72,7 +73,7 @@ Squash working commits into a whole idea.
   from="0"
   to="1"
   dur="1s"
-  begin="1s"
+  begin="rebasing-anim-squash.click + 1s"
   fill="freeze" />
 </g>
 
@@ -85,7 +86,7 @@ Squash working commits into a whole idea.
   from="0"
   to="1"
   dur="1s"
-  begin="2s"
+  begin="rebasing-anim-squash.click + 2s"
   fill="freeze" />
 </g>
 
@@ -98,7 +99,7 @@ Squash working commits into a whole idea.
   from="0"
   to="1"
   dur="1s"
-  begin="3s"
+  begin="rebasing-anim-squash.click + 3s"
   fill="freeze" />
 </g>
 
@@ -110,7 +111,7 @@ Squash working commits into a whole idea.
   from="0"
   to="1"
   dur="1s"
-  begin="3s"
+  begin="rebasing-anim-squash.click + 3s"
   fill="freeze" />
 </text>
 
@@ -118,7 +119,7 @@ Squash working commits into a whole idea.
   from="0"
   to="1"
   dur="1s"
-  begin="4s"
+  begin="rebasing-anim-squash.click + 4s"
   fill="freeze" />
 </g>
 
@@ -127,7 +128,7 @@ Squash working commits into a whole idea.
     attributeName="cy"
     to="90"
     dur="3s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     repeatCount="1"
     id="commit1-anim" />
@@ -138,7 +139,7 @@ Squash working commits into a whole idea.
     from="1"
     to="0"
     dur="2.5s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" />
 
 <animate 
@@ -146,7 +147,7 @@ Squash working commits into a whole idea.
     attributeName="cy" 
     to="90"
     dur="3s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     repeatCount="1"
     id="commit2-anim" />
@@ -157,7 +158,7 @@ Squash working commits into a whole idea.
     from="1"
     to="0"
     dur="2.5s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" />
 
 <animate 
@@ -165,7 +166,7 @@ Squash working commits into a whole idea.
     attributeName="cy" 
     to="90" 
     dur="3s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     repeatCount="1"
     id="commit3-anim" />
@@ -175,7 +176,7 @@ Squash working commits into a whole idea.
     from="1"
     to="0"
     dur="2.5s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     id="message3-anim" />
 
@@ -184,7 +185,7 @@ Squash working commits into a whole idea.
     attributeName="cy" 
     to="90" 
     dur="3s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     repeatCount="1"
     id="commit4-anim" />
@@ -193,7 +194,7 @@ Squash working commits into a whole idea.
     attributeName="fill" 
     to="blue" 
     dur="1s"
-    begin="7s"
+    begin="rebasing-anim-squash.click + 7s"
     fill="freeze" 
     repeatCount="1"
     id="commit4-colour-anim" />
@@ -203,7 +204,7 @@ Squash working commits into a whole idea.
     from="1"
     to="0"
     dur="2.5s"
-    begin="5s"
+    begin="rebasing-anim-squash.click + 5s"
     fill="freeze" 
     id="message4-anim" />
 

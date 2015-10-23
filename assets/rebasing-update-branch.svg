@@ -6,7 +6,7 @@ height="800px"
 viewBox="10 0 300 300"
 preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-id="startAnimation">
+id="rebase-update-branch">
 
 <defs>
   <style type="text/css">@import url('assets/svg-styles.css')</style>
@@ -53,13 +53,13 @@ Rebasing:
     from="0"
     to="1"
     dur=".25s"
-    begin="startAnimation.click + 1s"
+    begin="rebase-update-branch.click + 1s"
     fill="freeze" />
   <animate attribute="CSS" attributeName="opacity"
     from="1"
     to=".1"
     dur=".25s"
-    begin="startAnimation.click + 6s"
+    begin="rebase-update-branch.click + 6s"
     fill="freeze" />
 </g>
 
@@ -76,7 +76,7 @@ Rebasing:
     from="0"
     to="1"
     dur=".25s"
-    begin="startAnimation.click + 7s"
+    begin="rebase-update-branch.click + 7s"
     fill="freeze" />
 </g>
 
@@ -93,7 +93,7 @@ Rebasing:
   from="0"
   to="1"
   dur="0.5s"
-  begin="startAnimation.click + 5s"
+  begin="rebase-update-branch.click + 5s"
   fill="freeze" />
 </g>
 <g opacity="0">
@@ -102,25 +102,22 @@ Rebasing:
   from="0"
   to="1"
   dur="0.5s"
-  begin="startAnimation.click + 5.5s"
+  begin="rebase-update-branch.click + 5.5s"
   fill="freeze" />
 </g>
 
-<text id="branch-feature1" x="60" y="140">create new branch + add commits</text>
-<!-- <animate
-  xlink:href="#branch-feature1"
-  id="branch-feature1-anim"
-  attributeName="y"
-  to="150"
-  dur="2s"
-  begin="startAnimation.click + 5s"
-  fill="freeze"
-  repeatCount="1" /> -->
+<text id="branch-feature1" x="60" y="180" opacity="0">create new branch + add commits</text>
+<animate xlink:href="#branch-feature1" attributeType="CSS" attributeName="opacity"
+  from="0"
+  to="1"
+  dur=".10s"
+  begin="rebase-update-branch.click + 0s"
+  fill="freeze" />
 <animate xlink:href="#branch-feature1" attributeType="CSS" attributeName="opacity"
   from="1"
   to="0"
   dur="0.4s"
-  begin="startAnimation.click + 4s"
+  begin="rebase-update-branch.click + 4s"
   fill="freeze" />
 
 <circle id="commit-feature1" class="commit commit-feature" cy="175" opacity="0"/>
@@ -128,13 +125,13 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="startAnimation.click + 3s"
+  begin="rebase-update-branch.click + 3s"
   fill="freeze" />
 <animate xlink:href="#commit-feature1" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.1s"
-  begin="startAnimation.click + 6s"
+  begin="rebase-update-branch.click + 6s"
   fill="freeze" />
 
 <circle id="commit-feature2" class="commit commit-feature" cy="160" opacity="0"/>
@@ -142,13 +139,13 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="startAnimation.click + 3.5s"
+  begin="rebase-update-branch.click + 3.5s"
   fill="freeze" />
 <animate xlink:href="#commit-feature2" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.5s"
-  begin="startAnimation.click + 6s"
+  begin="rebase-update-branch.click + 6s"
   fill="freeze" />
 
 <circle id="commit-feature3" class="commit commit-feature" cy="145" opacity="0"/>
@@ -156,13 +153,13 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="startAnimation.click + 4s"
+  begin="rebase-update-branch.click + 4s"
   fill="freeze" />
 <animate xlink:href="#commit-feature3" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.5s"
-  begin="startAnimation.click + 6s"
+  begin="rebase-update-branch.click + 6s"
   fill="freeze" />
 
 <g opacity="0">
@@ -173,7 +170,7 @@ Rebasing:
     from="0"
     to="1"
     dur="0.5s"
-    begin="startAnimation.click + 7s"
+    begin="rebase-update-branch.click + 7s"
     fill="freeze" />
 </g>
 
@@ -184,7 +181,7 @@ Rebasing:
     from="0"
     to="1"
     dur="0.5s"
-    begin="startAnimation.click + 8s"
+    begin="rebase-update-branch.click + 8s"
     fill="freeze" />
 </g>
 
@@ -193,21 +190,21 @@ Rebasing:
   from="0"
   to="1"
   dur=".10s"
-  begin="startAnimation.click + 8s"
+  begin="rebase-update-branch.click + 8s"
   fill="freeze" />
 <circle id="feature-rebase-commit2" class="commit commit-feature rebased" cy="105" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit2" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
-  begin="startAnimation.click + 8.5s"
+  begin="rebase-update-branch.click + 8.5s"
   fill="freeze" />
 <circle id="feature-rebase-commit3" class="commit commit-feature rebased" cy="90" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit3" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
-  begin="startAnimation.click + 9s"
+  begin="rebase-update-branch.click + 9s"
   fill="freeze" />
 
 </svg>
