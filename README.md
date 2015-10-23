@@ -34,6 +34,13 @@ If style changes are made to the SCSS file, you will need to re-create the theme
 
 If you will not have an internet connection for your presentation, make sure the Google Font Open Sans Condensed is installed locally. For your convenience, it is included in the folder `assets/fonts/open-sans` and is licensed separately.
 
+## Branches
+
+- `content` - content files, and style sheets without the presentation software
+- `upstream_reveal` - the latest version of reveal.js that's being used for this presentation
+- `presentation` - combines the branches `content` and `upstream_reveal`; used for local testing
+- `gh-pages` - typically a copy of the branch `presentation`; used for deployments
+
 ## License
 
 Content (slides text, diagrams, and CSS theme for the slides):
