@@ -5,11 +5,11 @@ width="1000px"
 height="800px"
 viewBox="10 0 300 300"
 preserveAspectRatio="xMidYMid meet"
-xmlns:xlink="http://www.w3.org/1999/xlink">
+xmlns:xlink="http://www.w3.org/1999/xlink"
+id="startAnimation">
 
 <defs>
   <style type="text/css">@import url('assets/svg-styles.css')</style>
-
   <marker id='head' orient='auto' markerWidth='2' markerHeight='8' refX='0.1' refY='2'>
     <path d='M0,0 V4 L2,2 Z' fill='gray' />
   </marker>
@@ -53,13 +53,13 @@ Rebasing:
     from="0"
     to="1"
     dur=".25s"
-    begin="1s"
+    begin="startAnimation.click + 1s"
     fill="freeze" />
   <animate attribute="CSS" attributeName="opacity"
     from="1"
     to=".1"
     dur=".25s"
-    begin="6s"
+    begin="startAnimation.click + 6s"
     fill="freeze" />
 </g>
 
@@ -76,7 +76,7 @@ Rebasing:
     from="0"
     to="1"
     dur=".25s"
-    begin="7s"
+    begin="startAnimation.click + 7s"
     fill="freeze" />
 </g>
 
@@ -93,7 +93,7 @@ Rebasing:
   from="0"
   to="1"
   dur="0.5s"
-  begin="5s"
+  begin="startAnimation.click + 5s"
   fill="freeze" />
 </g>
 <g opacity="0">
@@ -102,7 +102,7 @@ Rebasing:
   from="0"
   to="1"
   dur="0.5s"
-  begin="5.5s"
+  begin="startAnimation.click + 5.5s"
   fill="freeze" />
 </g>
 
@@ -113,14 +113,14 @@ Rebasing:
   attributeName="y"
   to="150"
   dur="2s"
-  begin="5s"
+  begin="startAnimation.click + 5s"
   fill="freeze"
   repeatCount="1" /> -->
 <animate xlink:href="#branch-feature1" attributeType="CSS" attributeName="opacity"
   from="1"
   to="0"
   dur="0.4s"
-  begin="4s"
+  begin="startAnimation.click + 4s"
   fill="freeze" />
 
 <circle id="commit-feature1" class="commit commit-feature" cy="175" opacity="0"/>
@@ -128,13 +128,13 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="3s"
+  begin="startAnimation.click + 3s"
   fill="freeze" />
 <animate xlink:href="#commit-feature1" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.1s"
-  begin="6s"
+  begin="startAnimation.click + 6s"
   fill="freeze" />
 
 <circle id="commit-feature2" class="commit commit-feature" cy="160" opacity="0"/>
@@ -142,13 +142,13 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="3.5s"
+  begin="startAnimation.click + 3.5s"
   fill="freeze" />
 <animate xlink:href="#commit-feature2" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.5s"
-  begin="6s"
+  begin="startAnimation.click + 6s"
   fill="freeze" />
 
 <circle id="commit-feature3" class="commit commit-feature" cy="145" opacity="0"/>
@@ -156,24 +156,24 @@ Rebasing:
   from="0"
   to="1"
   dur=".1s"
-  begin="4s"
+  begin="startAnimation.click + 4s"
   fill="freeze" />
 <animate xlink:href="#commit-feature3" attributeType="CSS" attributeName="opacity"
   from="1"
   to=".2"
   dur="0.5s"
-  begin="6s"
+  begin="startAnimation.click + 6s"
   fill="freeze" />
 
 <g opacity="0">
   <text x="60" y="140" opacity="0">updated upstream head ... really means ...</text>
   <text x="60" y="180" opacity="0">identify new upstream branch tip</text>
-  <text x="60" y="140">forward base to newest commit</text>
+  <text x="60" y="130">forward base to newest commit</text>
   <animate attributeType="CSS" attributeName="opacity"
     from="0"
     to="1"
     dur="0.5s"
-    begin="7s"
+    begin="startAnimation.click + 7s"
     fill="freeze" />
 </g>
 
@@ -184,7 +184,7 @@ Rebasing:
     from="0"
     to="1"
     dur="0.5s"
-    begin="8s"
+    begin="startAnimation.click + 8s"
     fill="freeze" />
 </g>
 
@@ -193,21 +193,21 @@ Rebasing:
   from="0"
   to="1"
   dur=".10s"
-  begin="8s"
+  begin="startAnimation.click + 8s"
   fill="freeze" />
 <circle id="feature-rebase-commit2" class="commit commit-feature rebased" cy="105" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit2" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
-  begin="8.5s"
+  begin="startAnimation.click + 8.5s"
   fill="freeze" />
 <circle id="feature-rebase-commit3" class="commit commit-feature rebased" cy="90" opacity="0"/>
 <animate xlink:href="#feature-rebase-commit3" attributeType="CSS" attributeName="opacity"
   from="0"
   to="1"
   dur=".10s"
-  begin="9s"
+  begin="startAnimation.click + 9s"
   fill="freeze" />
 
 </svg>
