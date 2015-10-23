@@ -94,6 +94,8 @@ I will love you regardless of which strategy you use.
 
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
+Hint: `git log --oneline --graph --no-merges`
+
 
 <img alt="merge vs. rebase graphs compared" src="assets/merge-types.svg" class="inject_me" />
 
