@@ -110,9 +110,11 @@ Hint: `git log --oneline --graph --no-merges`
 NOTE: Compare graphs from merge and rebase
 
 
+## Undoing Bad Merges in Private
 <img alt="private: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge.svg" class="inject_me" />
 
 
+## Undoing Bad Merges in Public Branches
 <img alt="public: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge-public.svg" class="inject_me" />
 
 
