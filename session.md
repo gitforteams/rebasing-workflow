@@ -82,24 +82,32 @@ I will love you regardless of which strategy you use.
 (But your team *might* not.)
 
 
-### Use Rebase to Update a Branch
-## Because
-### Merging to **Update** is "Messy"
+### People Say: Merging Branches is "Messy"
+### So Use Rebase to Update a Branch
 
 ![merge to update](assets/merge-to-update.png)
 
 
-### Use Merge with FF
-## Because
-### Merge Commits to **Combine** are "Messy"
+## What They Mean Is ...
+
+"I find bi-directional graphs difficult to read. Can I help you become more comfortable with rebasing to update your branches so that our shared project history is easier to read?"
+
+
+### People Say: Merge Commits are "Messy"
+### So Use Merge with FF
 
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
 
-Hint: `git log --oneline --graph --no-merges`
+## What They Means Is ...
+
+"We merge a lot of little branches really, really frequently. Should we consider using `merge --ff-only`?"
 
 
-# WOAH, THERE.
+See also: `git log --oneline --graph --no-merges`
+
+
+#  o_O
 
 
 # Let's talk about merges.
@@ -110,11 +118,11 @@ Hint: `git log --oneline --graph --no-merges`
 NOTE: Compare graphs from merge and rebase
 
 
-## Undoing Bad Merges in Private
+### Undoing Bad Merges in Private Branches
 <img alt="private: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge.svg" class="inject_me" />
 
 
-## Undoing Bad Merges in Public Branches
+### Undoing Bad Merges in Public Branches
 <img alt="public: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge-public.svg" class="inject_me" />
 
 
