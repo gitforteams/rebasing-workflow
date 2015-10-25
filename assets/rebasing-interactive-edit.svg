@@ -6,7 +6,8 @@ height="800px"
 viewBox="10 0 350 320"
 preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-id="rebase-interactive-edit">
+id="rebase-interactive-edit"
+class="single-diagram">
 
 <defs>
   <style type="text/css">

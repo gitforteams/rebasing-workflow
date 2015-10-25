@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Mostly created with Inkscape (http://www.inkscape.org/) -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg
-width="1000px"
-height="800px"
-viewBox="10 0 600 600"
-preserveAspectRatio="xMidYMid meet"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:cc="http://creativecommons.org/ns#"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:svg="http://www.w3.org/2000/svg"
-xmlns="http://www.w3.org/2000/svg"
-xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-version="1.1"
-inkscape:version="0.91 r13725"
-sodipodi:docname="merge-types.svg">
 
-<defs>
-<style type="text/css">@import url('assets/svg-styles.css')</style>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200px"
+   height="800px"
+   viewBox="-100 0 700 300"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="merge-types.svg"
+   id="svg4869">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1348" inkscape:window-height="693" id="namedview5008" showgrid="false" inkscape:zoom="0.83155757" inkscape:cx="602.04082" inkscape:cy="513.00717" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="g6008" />
+  <defs>
+    <style type="text/css">@import url('svg-styles.css')</style>
     <marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
@@ -28,9 +28,7 @@ sodipodi:docname="merge-types.svg">
        id="marker7787"
        style="overflow:visible"
        inkscape:isstock="true">
-      <path
-         id="path7789"
-         style="fill:#b2b2b2;fill-opacity:1;fill-rule:evenodd;stroke:#b2b2b2;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+      <path style="fill:#b2b2b2;fill-opacity:1;fill-rule:evenodd;stroke:#b2b2b2;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          inkscape:connector-curvature="0" />
@@ -40,12 +38,10 @@ sodipodi:docname="merge-types.svg">
        orient="auto"
        refY="0"
        refX="0"
-       id="marker7697"
-       style="overflow:visible"
+       id="merge-ff-rebase"
+       style="overflow:visible; fill: black"
        inkscape:isstock="true">
-      <path
-         id="path7699"
-         style="fill:#b2b2b2;fill-opacity:1;fill-rule:evenodd;stroke:#b2b2b2;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+      <path class="arrowhead"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          inkscape:connector-curvature="0" />
@@ -308,467 +304,262 @@ sodipodi:docname="merge-types.svg">
        x="602.09131"
        y="847.67432" /></text>
   <g
-     id="g5544"
-     transform="translate(55.154329,1.4142136)">
+     id="g6049"
+     transform="translate(40.586485,-47.80186)">
+    <rect class="new-upstream"
+       ry="10.058055"
+       y="156.08548"
+       x="24.241106"
+       height="53.94775"
+       width="28.345427" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-5)"
+       inkscape:connector-curvature="0"
+       d="m 37.07374,263.39233 1.1445,-124.3947"
+       id="path4413-1-2-6-8" />
+    <circle class="commit commit-master"
+       cy="228.95615"
+       cx="38.403751" />
+    <text class="flowchart master"
+       sodipodi:linespacing="125%"
+       x="-44.314899"
+       y="277.05936"
+       font-stretch="condensed"
+       line-height="125%"
+       font-size="11.25px"
+       xml:space="preserve"
+       id="text17090-43"
+       style="font-stretch:condensed;font-size:11.25px;line-height:125%"><tspan
+         x="-44.314899"
+         y="277.05936"
+         id="tspan17092-0">master (upstream) branch</tspan></text>
+    <circle class="commit new-upstream"
+       cy="197.16533"
+       cx="38.403751" />
+    <circle class="commit new-upstream"
+       cy="169.79533"
+       cx="38.403751" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-6-2)"
+       inkscape:connector-curvature="0"
+       d="M 85.11374,168.60733 84.82964,93.008566"
+       id="path4413-1-2-6-8-3" />
+    <circle class="commit commit-feature"
+       cy="165.5735"
+       cx="85.686737" />
+    <circle class="commit commit-feature"
+       cy="142.58534"
+       cx="85.686737" />
+    <circle class="commit commit-feature"
+       cx="85.186737"
+       cy="117.59719" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path4413-1-2-6-8-3-2-3-7"
+       d="m 49.09674,229.47233 c 24.857,-9.4702 32.518,-18.622 34.221,-53.599"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-dasharray:6, 6;marker-end:url(#Arrow2Lend-8-0-0-7-6-9-1-1-3)" />
+    <text class="flowchart commit-feature"
+         x="40.640598"
+         y="87.076599">feature branch</text>
+    <text class="flowchart label-leading fixup">
+       <tspan x="-116" y="185">additional commits will prevent</tspan>
+       <tspan x="-65" y="200">fast-forward merge</tspan></text>
+  </g>
+  <g class="diagram-merge-ff"
+     id="g6008"
+     transform="translate(-30.6076876,-60.3134532)">
+    <text
+       style="line-height:110.00000238%"
+       sodipodi:linespacing="110%"
+       id="text8501-3"
+       y="195.06453"
+       x="297.42712"
+       class="flowchart"
+       xml:space="preserve"><tspan
+         id="tspan4688"
+         style="font-weight:bold;line-height:110.00000238%;text-align:start;text-anchor:start"
+         y="195.06453"
+         x="297.42712"
+         sodipodi:role="line">rebase:</tspan><tspan
+         id="tspan5747"
+         style="font-weight:normal;line-height:110.00000238%;text-align:start;text-anchor:start"
+         y="208.26453"
+         x="297.42712"
+         sodipodi:role="line">sets branch base to</tspan><tspan
+         id="tspan5755"
+         style="font-weight:normal;line-height:110.00000238%;text-align:start;text-anchor:start"
+         y="221.46452"
+         x="297.42712"
+         sodipodi:role="line">new upstream branch tip</tspan></text>
     <g
-       transform="translate(291.32119,35.43768)"
-       id="g6911">
-      <g
-         transform="translate(-253.38182,113.37973)"
-         id="g11597">
-        <rect
-           ry="10.058055"
-           y="98.751816"
-           x="163.84325"
-           height="53.94775"
-           width="28.345427"
-           id="rect6909"
-           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           sodipodi:nodetypes="cc"
-           style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-5)"
-           inkscape:connector-curvature="0"
-           d="m 176.67588,206.05866 1.1445,-124.394695"
-           id="path4413-1-2-6-8" />
-        <circle
-           id="path17044-3"
-           cy="171.62248"
-           cx="178.00589"
-           r="8.5862999"
-           style="fill:#666666;fill-opacity:1" />
-        <text
-           sodipodi:linespacing="125%"
-           x="108.81607"
-           y="74.516266"
-           font-stretch="condensed"
-           line-height="125%"
-           font-size="11.25px"
-           xml:space="preserve"
-           class="flowchart"
-           id="text17090-43"><tspan
-             x="108.81607"
-             y="74.516266"
-             id="tspan17092-0">&quot;upstream&quot; (master) branch</tspan></text>
-        <circle
-           id="path17044-3-2"
-           cy="139.83167"
-           cx="178.00589"
-           r="8.5862999"
-           style="fill:#666666;fill-opacity:1" />
-        <circle
-           id="path17044-3-2-8"
-           cy="112.46166"
-           cx="178.00589"
-           r="8.5862999"
-           style="fill:#666666;fill-opacity:1" />
-        <path
-           sodipodi:nodetypes="cc"
-           style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-6-2)"
-           inkscape:connector-curvature="0"
-           d="m 224.71588,111.27366 -0.2841,-75.598764"
-           id="path4413-1-2-6-8-3" />
-        <circle
-           id="path17044-3-3"
-           cy="108.23983"
-           cx="225.28888"
-           r="8.5862999"
-           style="fill:#a6a6a6;fill-opacity:1" />
-        <circle
-           id="circle17046-1-3"
-           cy="85.251678"
-           cx="225.28888"
-           r="8.5862999"
-           style="fill:#a6a6a6;fill-opacity:1" />
-        <circle
-           id="circle17046-1-3-2"
-           cx="224.78888"
-           cy="60.263523"
-           r="8.5862999"
-           style="fill:#a6a6a6;fill-opacity:1" />
-        <path
-           sodipodi:nodetypes="cc"
-           id="path4413-1-2-6-8-3-2-3-7"
-           d="m 188.69888,172.13866 c 24.857,-9.4702 32.518,-18.622 34.221,-53.599"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#000000;stroke-dasharray:6, 6;marker-end:url(#Arrow2Lend-8-0-0-7-6-9-1-1-3)" />
-        <text
-           sodipodi:linespacing="125%"
-           x="180.24274"
-           y="29.742929"
-           font-stretch="condensed"
-           line-height="125%"
-           font-size="11.25px"
-           xml:space="preserve"
-           class="flowchart"
-           id="text17090-43-5"><tspan
-             x="180.24274"
-             y="29.742929"
-             id="tspan17092-0-4">working branch to merge</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text6903"
-           y="120.69667"
-           x="50"
-           class="flowchart instruction"
-           xml:space="preserve"><tspan
-             y="120.69667"
-             x="50"
-             id="tspan6905"
-             sodipodi:role="line">additional commits will</tspan><tspan
-             id="tspan6907"
-             y="134.75917"
-             x="50"
-             sodipodi:role="line">prevent fast-forward merge</tspan></text>
-      </g>
-      <rect
-         ry="6.3934669"
-         y="12.854005"
-         x="-248.28534"
-         height="492.28354"
-         width="336.18015"
-         id="rect6930"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21887386;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <g
-         transform="translate(-73,11)"
-         id="g11584">
-        <text
-           xml:space="preserve"
-           class="flowchart"
-           x="-160.30391"
-           y="33.901581"
-           id="text11522"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="-160.30391"
-             y="33.901581"
-             id="tspan11526"
-             style="font-size:18.75px;text-align:start;text-anchor:start"><tspan
-   style="font-weight:bold;text-align:start;text-anchor:start"
-   id="tspan11550">Scenario</tspan>: Merge New Work Into the Upstream Branch.</tspan></text>
-        <text
-           xml:space="preserve"
-           class="flowchart"
-           x="-160.2664"
-           y="66.270325"
-           id="text11522-1"
-           sodipodi:linespacing="92.000002%"><tspan
-             sodipodi:role="line"
-             x="-160.2664"
-             y="66.270325"
-             id="tspan11526-1"
-             style="font-size:18.75px;line-height:92.00000167%;text-align:start;text-anchor:start"><tspan
-   style="font-weight:bold;line-height:92.00000167%;text-align:start;text-anchor:start"
-   id="tspan11548">Problem</tspan>: New commits have been added upstream</tspan><tspan
-             sodipodi:role="line"
-             x="-160.2664"
-             y="83.520325"
-             style="font-size:18.75px;line-height:92.00000167%;text-align:start;text-anchor:start"
-             id="tspan11552">since working branch was created.</tspan></text>
-      </g>
+       transform="translate(-341.33022,30.105769)"
+       id="g5730">
+      <rect class="rebased master"
+         width="28.345427"
+         height="53.94775"
+         x="608.11768"
+         y="134.9854"
+         ry="10.058055" />
+      <path
+         id="path4413-1-2-6-8-7-4"
+         d="m 621.12311,223.62491 1.1445,-179.99853"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-8-2-6)"
+         sodipodi:nodetypes="cc" />
+      <circle class="commit commit-master"
+         cx="622.45312"
+         cy="207.93886" />
+      <circle class="commit commit-master fixup"
+         cx="622.45312"
+         cy="176.14806" />
+      <circle class="commit commit-master fixup"
+         cx="622.45312"
+         cy="148.77803" />
+      <circle class="commit merged"
+         cx="621.73608"
+         cy="118.55621" />
+      <circle class="commit merged"
+         cx="621.73608"
+         cy="95.568047" />
+      <circle class="commit merged"
+         cy="70.579887"
+         cx="621.23608" />
+      <path
+         id="path4413-1-2-6-8-3-69-8"
+         d="m 669.17536,120.60446 c 0,0 15.83262,-113.8871523 -36.25912,-54.451141"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#b2b2b2;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7787)"
+         sodipodi:nodetypes="cc" />
+      <circle class="commit commit-feature merged-ff"
+         cx="669.74835"
+         cy="117.57064" />
+      <circle class="commit commit-feature merged-ff"
+         cx="669.74835"
+         cy="94.582481" />
+      <circle class="commit commit-feature merged-ff"
+         cy="69.594353"
+         cx="669.24835" />
+      <path class="rebase merged-ff" 
+         inkscape:connector-curvature="0"
+         d="m 631.39114,149.97774 c 24.857,8.63337 36.56979,-1.33743 38.57445,-21.26265"
+         id="path4413-1-2-6-8-3-2-3-7-27-0"
+         sodipodi:nodetypes="cc" />
     </g>
+    <text
+       style="line-height:125%"
+       sodipodi:linespacing="125%"
+       id="text5716"
+       y="30.555363"
+       x="267.94794"
+       class="flowchart"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;text-align:start;text-anchor:start"
+         y="30.555363"
+         x="267.94794"
+         id="tspan5718"
+         sodipodi:role="line">merge with fast forward</tspan><tspan
+         style="text-align:start;text-anchor:start"
+         id="tspan5720"
+         y="45.555363"
+         x="267.94794"
+         sodipodi:role="line">to incorporate working branch</tspan><tspan
+         style="text-align:start;text-anchor:start"
+         id="tspan5722"
+         y="60.555363"
+         x="267.94794"
+         sodipodi:role="line">without adding a merge commit</tspan></text>
+  </g>
+  <g class="diagram-true-merge"
+     id="g6087"
+     transform="translate(-150,-60)">
     <g
-       transform="translate(417.19301,-311.83407)"
-       id="g4358">
-      <g
-         id="g5487">
-        <g
-           transform="translate(-598.53672,353.73698)"
-           id="g5653">
-          <text
-             xml:space="preserve"
-             class="flowchart"
-             x="741.99493"
-             y="167.08008"
-             id="text8501-3"
-             sodipodi:linespacing="110%"><tspan
-               sodipodi:role="line"
-               x="741.99493"
-               y="167.08008"
-               style="font-weight:bold;line-height:110.00000238%;text-align:start;text-anchor:start"
-               id="tspan4688">rebase</tspan><tspan
-               sodipodi:role="line"
-               x="741.99493"
-               y="179.45508"
-               style="font-weight:normal;line-height:110.00000238%;text-align:start;text-anchor:start"
-               id="tspan5747">to new upstream</tspan><tspan
-               sodipodi:role="line"
-               x="741.99493"
-               y="191.83008"
-               style="font-weight:normal;line-height:110.00000238%;text-align:start;text-anchor:start"
-               id="tspan5755">branch tip</tspan></text>
-          <g
-             id="g5730"
-             transform="translate(103.23759,2.1213204)">
-            <rect
-               ry="10.058055"
-               y="134.9854"
-               x="608.11768"
-               height="53.94775"
-               width="28.345427"
-               id="rect6909-4"
-               style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-            <path
-               sodipodi:nodetypes="cc"
-               style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-8-2-6)"
-               inkscape:connector-curvature="0"
-               d="m 621.12311,223.62491 1.1445,-179.99853"
-               id="path4413-1-2-6-8-7-4" />
-            <circle
-               id="path17044-3-1-4"
-               cy="207.93886"
-               cx="622.45312"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <circle
-               id="path17044-3-2-0-9"
-               cy="176.14806"
-               cx="622.45312"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <circle
-               id="path17044-3-2-8-6-5"
-               cy="148.77803"
-               cx="622.45312"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <circle
-               id="path17044-3-3-57-7"
-               cy="118.55621"
-               cx="621.73608"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <circle
-               id="circle17046-1-3-73-3"
-               cy="95.568047"
-               cx="621.73608"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <circle
-               id="circle17046-1-3-2-3-2"
-               cx="621.23608"
-               cy="70.579887"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <path
-               sodipodi:nodetypes="cc"
-               style="opacity:1;fill:none;fill-opacity:1;stroke:#b2b2b2;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7787)"
-               inkscape:connector-curvature="0"
-               d="m 669.17536,120.60446 c 0,0 15.83262,-113.8871523 -36.25912,-54.451141"
-               id="path4413-1-2-6-8-3-69-8" />
-            <circle
-               id="path17044-3-3-57-2"
-               cy="117.57064"
-               cx="669.74835"
-               r="8.5862999"
-               style="opacity:1;fill:#e5e5e5;fill-opacity:1;stroke:#666666;stroke-opacity:1" />
-            <circle
-               id="circle17046-1-3-73-2"
-               cy="94.582481"
-               cx="669.74835"
-               r="8.5862999"
-               style="opacity:1;fill:#e5e5e5;fill-opacity:1;stroke:#666666;stroke-opacity:1" />
-            <circle
-               id="circle17046-1-3-2-3-7"
-               cx="669.24835"
-               cy="69.594353"
-               r="8.5862999"
-               style="opacity:1;fill:#e5e5e5;fill-opacity:1;stroke:#666666;stroke-opacity:1" />
-            <path
-               sodipodi:nodetypes="cc"
-               id="path4413-1-2-6-8-3-2-3-7-27-0"
-               d="m 631.39114,149.97774 c 24.857,8.63337 36.56979,-1.33743 38.57445,-21.26265"
-               inkscape:connector-curvature="0"
-               style="opacity:1;fill:none;fill-opacity:1;stroke:#b2b2b2;stroke-dasharray:6, 6;stroke-opacity:1;marker-end:url(#marker7697)" />
-          </g>
-          <text
-             xml:space="preserve"
-             class="flowchart"
-             x="607.89282"
-             y="60.293915"
-             id="text5716"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               id="tspan5718"
-               x="607.89282"
-               y="60.293915"
-               style="font-weight:bold;text-align:start;text-anchor:start">merge with fast forward</tspan><tspan
-               sodipodi:role="line"
-               x="607.89282"
-               y="74.356415"
-               id="tspan5720"
-               style="text-align:start;text-anchor:start">to incorporate working branch</tspan><tspan
-               sodipodi:role="line"
-               x="607.89282"
-               y="88.418915"
-               id="tspan5722"
-               style="text-align:start;text-anchor:start">without adding a merge commit</tspan></text>
-        </g>
-        <rect
-           ry="6.3934669"
-           y="359.53412"
-           x="2.2857554"
-           height="236.02802"
-           width="203.33807"
-           id="rect6930-2"
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21887386;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <text
-           xml:space="preserve"
-           class="flowchart"
-           x="9.1309528"
-           y="385.15002"
-           id="text11522-1-8"
-           sodipodi:linespacing="92.000002%"><tspan
-             id="tspan11622"
-             sodipodi:role="line"
-             x="9.1309528"
-             y="385.15002"
-             style="font-size:18.75px;line-height:92.00000167%;text-align:start;text-anchor:start"><tspan
-   style="font-weight:bold"
-   id="tspan11582">Solution 1</tspan>: Fast Forward Merge</tspan></text>
-      </g>
-    </g>
-    <g
-       transform="translate(25.692999,-55.154329)"
-       id="g4329">
-      <g
-         transform="translate(0,-2.1213203)"
-         id="g5516">
-        <g
-           transform="translate(293.6642,402.05123)"
-           id="g4490">
-          <g
-             id="g7067"
-             transform="translate(142.88894,-370.11476)">
-            <rect
-               style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect6909-9"
-               width="28.345427"
-               height="53.94775"
-               x="44.863178"
-               y="470.85742"
-               ry="10.058055" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-0-9)"
-               inkscape:connector-curvature="0"
-               d="m 59.281292,557.27534 1.1445,-189.68788"
-               id="path4413-1-2-6-8-33"
-               sodipodi:nodetypes="cc" />
-            <circle
-               id="path17044-3-5"
-               cy="539.83533"
-               cx="60.351307"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-6-6-0)"
-               inkscape:connector-curvature="0"
-               d="m 105.43129,478.54534 -0.28,-95.54109"
-               id="path4413-1-2-6-8-3-6"
-               sodipodi:nodetypes="cc" />
-            <circle
-               id="path17044-3-3-5"
-               cy="477.39532"
-               cx="105.06129"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <circle
-               id="circle17046-1-3-7"
-               cy="449.83533"
-               cx="105.06129"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <circle
-               id="circle17046-1-3-2-7"
-               cx="104.56129"
-               cy="420.27533"
-               r="8.5862999"
-               style="fill:#a6a6a6;fill-opacity:1" />
-            <path
-               id="path4413-1-2-6-8-3-2-3-7-2"
-               d="m 71.021292,535.95534 c 24.857,-9.4702 32.236998,-12.678 33.557998,-52.037"
-               inkscape:connector-curvature="0"
-               style="fill:none;stroke:#000000;stroke-dasharray:6, 6" />
-            <path
-               id="path4413-1-2-6-8-3-2-3-7-23"
-               d="m 95.050402,416.18012 c -1.18679,-14.24827 2.86147,-32.5841 -24.7848,-15.54836"
-               inkscape:connector-curvature="0"
-               style="fill:none;stroke:#000000;stroke-dasharray:1, 2;marker-end:url(#Arrow2Lend-8-0-0-7-6-9-1-1-1-9)"
-               sodipodi:nodetypes="cc" />
-            <rect
-               id="rect6684"
-               ry="0"
-               height="17.932007"
-               width="17.047266"
-               y="393.99777"
-               x="50.627235"
-               style="fill:#4d4d4d" />
-            <circle
-               id="path17044-3-2-3"
-               cy="510.91534"
-               cx="59.561298"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <circle
-               id="path17044-3-2-8-8"
-               cy="483.54532"
-               cx="59.561298"
-               r="8.5862999"
-               style="fill:#666666;fill-opacity:1" />
-            <flowRoot
-               xml:space="preserve"
-               id="flowRoot4503"
-               class="flowchart"><rect
-                   id="rect4507"
-                   width="0"
-                   height="14.224238"
-                   x="79.526421"
-                   y="365.55847" />
-                 </flowRoot>          </g>
-          <text
-             xml:space="preserve"
-             class="flowchart"
-             x="189.27914"
-             y="31.496317"
-             id="text7025"
-             sodipodi:linespacing="125%"><tspan
-               style="font-weight:bold;text-align:end;text-anchor:end"
-               sodipodi:role="line"
-               x="189.27914"
-               y="31.496317"
-               id="tspan7029">true merge</tspan><tspan
-               id="tspan4612"
-               style="text-align:end;text-anchor:end"
-               sodipodi:role="line"
-               x="189.27914"
-               y="45.558815">creates merge commit</tspan><tspan
-               style="text-align:end;text-anchor:end"
-               sodipodi:role="line"
-               x="189.27914"
-               y="59.621315"
-               id="tspan7033">no rebasing needed</tspan></text>
-        </g>
-        <rect
-           ry="6.3934669"
-           y="359.53415"
-           x="393.78577"
-           height="239.14931"
-           width="203.68129"
-           id="rect6930-2-2"
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21887386;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4315"
-           y="385.00003"
-           x="406.28989"
-           xml:space="preserve"><tspan
-             id="tspan4327"
-             style="font-size:18.75px;text-align:start;text-anchor:start"
-             y="385.00003"
-             x="406.28989"
-             sodipodi:role="line"><tspan
-   id="tspan4323"
-   style="font-weight:bold;font-size:18.75px;text-align:start;text-anchor:start">Solution 2</tspan>: True Merge</tspan></text>
-      </g>
-    </g>
+       transform="translate(578.73116,-298.10921)"
+       id="g7067">
+      <rect class="new-upstream"
+         ry="10.058055"
+         y="470.85742"
+         x="44.863178"
+         height="53.94775"
+         width="28.345427" />
+      <path class="branch-master"
+         sodipodi:nodetypes="cc"
+         id="path4413-1-2-6-8-33"
+         d="m 59.281292,557.27534 1.1445,-189.68788"
+         inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-0-9)" />
+
+      <circle class="commit commit-master"
+         cx="60.351307"
+         cy="539.83533" />
+      <path class="rebase"
+         sodipodi:nodetypes="cc"
+         id="path4413-1-2-6-8-3-6"
+         d="m 105.43129,478.54534 -0.28,-95.54109"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-8-0-0-7-6-6-0)" />
+      <circle class="commit commit-feature"
+         cx="105.06129"
+         cy="477.39532" />
+      <circle class="commit commit-feature"
+         cx="105.06129"
+         cy="449.83533" />
+      <circle class="commit commit-feature"
+         cy="420.27533"
+         cx="104.56129" />
+      <path
+         style="fill:none;stroke:#000000;stroke-dasharray:6, 6"
+         inkscape:connector-curvature="0"
+         d="m 71.021292,535.95534 c 24.857,-9.4702 32.236998,-12.678 33.557998,-52.037"
+         id="path4413-1-2-6-8-3-2-3-7-2" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#000000;stroke-dasharray:1, 2;marker-end:url(#Arrow2Lend-8-0-0-7-6-9-1-1-1-9)"
+         inkscape:connector-curvature="0"
+         d="m 95.050402,416.18012 c -1.18679,-14.24827 2.86147,-32.5841 -24.7848,-15.54836"
+         id="path4413-1-2-6-8-3-2-3-7-23" />
+      <rect class="commit merged commit-merge"
+         x="50.627235"
+         y="393.99777"
+         width="17.047266"
+         height="17.932007"
+         ry="0" />
+      <circle class="commit new-upstream"
+         cx="59.561298"
+         cy="510.91534" />
+      <circle class="commit new-upstream"
+         cx="59.561298"
+         cy="483.54532" />
+      <flowRoot
+         class="flowchart"
+         id="flowRoot4503"
+         xml:space="preserve"><rect
+           y="365.55847"
+           x="79.526421"
+           height="14.224238"
+           width="0"
+           id="rect4507" /></flowRoot>    </g>
+    <text class="flowchart"
+       sodipodi:linespacing="125%"
+       id="text7025"
+       y="27.740423"
+       x="589.04449"
+       xml:space="preserve">
+       <tspan 
+         y="27.740423"
+         x="589.04449"
+         sodipodi:role="line">
+         true merge</tspan>
+       <tspan
+         y="42.740425"
+         x="589.04449"
+         sodipodi:role="line">
+         creates merge commit</tspan>
+       <tspan
+         y="57.740425"
+         x="589.04449"
+         sodipodi:role="line">
+         no rebasing needed</tspan></text>
   </g>
 </svg>

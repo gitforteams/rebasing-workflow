@@ -6,7 +6,8 @@ height="800px"
 viewBox="10 0 300 300"
 preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-id="rebase-update-branch">
+id="rebase-update-branch"
+class="single-diagram">
 
 <defs>
   <style type="text/css">@import url('assets/svg-styles.css')</style>

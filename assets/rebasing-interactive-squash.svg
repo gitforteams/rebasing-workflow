@@ -6,7 +6,8 @@ height="800px"
 viewBox="10 0 350 320"
 preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-id="rebasing-anim-squash">
+id="rebasing-anim-squash"
+class="single-diagram">
 
 <defs>
   <style type="text/css">

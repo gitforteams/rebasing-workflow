@@ -1,51 +1,26 @@
+/* Debugging */
+/***
+g {
+  stroke: yellow;
+  stroke-width: 1;
+}
+***/
+
+/* Text */
 text {
-  font-size: 8pt;
-  font-family: "Open Sans Condensed";
   fill: #666;
+  font-family: "Open Sans Condensed", Open Sans;
+  font-size: 8pt;
+  font-weight: normal;
+  text-align: center;
 }
 
 text.heading {
   font-size: 150%;
 }
 
-.commit {
-  r: 5;
-}
-
-.commit-master {
-  cx: 20;
-  fill: #B30A84;
-  opacity: .95;
-  stroke: black;
-  stroke-width: 1;
-}
-
-.commit-feature {
-  cx: 40;
-  fill: #FF5E99;
-}
- 
-.commit.rebased { 
-  stroke: black;
-  stroke-width: 1;
-}
-
-.rebased {
-  fill: #FF5E99;
-}
-
-.commit.fixup {
-  fill: red;
-}
-
 text.rebased {
   fill: black;
-}
-
-.flowchart {
-  font-family: Open Sans;
-  font-weight: normal;
-  text-align: center;
 }
 
 .flowchart.instruction {
@@ -55,4 +30,83 @@ text.rebased {
 
 .flowchart.label {
   text-anchor: middle
+}
+
+.flowchart.label-leading {
+  text-align: right;
+  text-anchor: right;
+}
+
+/* Commits */
+.commit {
+  r: 5;
+}
+
+.single-diagram .commit-master {
+  cx: 20;
+}
+
+.single-diagram .commit-feature {
+  cx: 40;
+}
+
+.master {
+  fill: #B30A84;
+}
+
+.commit-master {
+  fill: #B30A84;
+  opacity: .95;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.commit-feature {
+  fill: #FF5E99;
+}
+ 
+.commit.rebased, .commit.merged, .commit.new-upstream { 
+  stroke: black;
+  stroke-width: 1;
+}
+
+.rebased, .merged {
+  fill: #FF5E99;
+}
+
+.commit.new-upstream {
+  fill: white;
+}
+
+.fixup {
+  fill: #24C9FF;
+}
+
+.merged-ff {
+  opacity: .4;
+}
+
+/* Groups */
+.new-upstream {
+  fill: #24C9FF;
+}
+
+.master.rebased {
+  fill: none;
+  stroke: #24C9FF;
+  stroke-width: 1;
+}
+
+/* Arrows */
+path.rebase {
+  fill:none;
+  fill-opacity:1;
+  stroke:black;
+  stroke-dasharray:6,6;
+  stroke-opacity:1;
+  marker-end:url(#merge-ff-rebase);
+}
+
+marker#merge-ff-rebase {
+  fill: black;
 }
