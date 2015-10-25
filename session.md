@@ -82,19 +82,27 @@ I will love you regardless of which strategy you use.
 (But your team *might* not.)
 
 
-![merge or rebase flowchart](assets/rebase-or-merge.png)
-
-
+### Use Rebase to Update a Branch
+## Because
 ### Merging to **Update** is "Messy"
 
 ![merge to update](assets/merge-to-update.png)
 
 
+### Use Merge with FF
+## Because
 ### Merge Commits to **Combine** are "Messy"
 
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
+
 Hint: `git log --oneline --graph --no-merges`
+
+
+# WOAH, THERE.
+
+
+# Let's talk about merges.
 
 
 <img alt="merge vs. rebase graphs compared" src="assets/merge-types.svg" class="inject_me" />
@@ -102,7 +110,13 @@ Hint: `git log --oneline --graph --no-merges`
 NOTE: Compare graphs from merge and rebase
 
 
-<img alt="merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge.svg" class="inject_me" />
+<img alt="private: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge.svg" class="inject_me" />
+
+
+<img alt="public: merge commits allow you to easily undo badly merged branches" src="assets/flowchart-undo-merge-public.svg" class="inject_me" />
+
+
+![merge or rebase flowchart](assets/rebase-or-merge.png)
 
 
 ## HOWTO...

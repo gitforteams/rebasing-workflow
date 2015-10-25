@@ -4,7 +4,7 @@
 <svg
 width="1000px"
 height="800px"
-viewBox="10 0 500 450"
+viewBox="10 0 500 460"
 preserveAspectRatio="xMidYMid meet"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -2039,14 +2039,14 @@ sodipodi:docname="06fig06-unmerge-private.svg">
          y="553.67987">yes</tspan></text>
     <text
        xml:space="preserve"
-       class="flowchart label"
-       x="48.42857"
+       class="flowchart instruction"
+       x="0"
        y="618.2533"
        id="text4552"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4554"
-         x="48.42857"
+         x="0"
          y="618.2533">reset --merge ORIG_HEAD</tspan></text>
     <g
        id="g4410-4-5"
@@ -2115,14 +2115,14 @@ sodipodi:docname="06fig06-unmerge-private.svg">
          y="669.15509">yes</tspan></text>
     <text
        xml:space="preserve"
-       class="flowchart label"
+       class="flowchart instruction"
        x="157.57143"
        y="739.68188"
        id="text4639"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4641"
-         x="157.57143"
+         x="100.57143"
          y="739.68188">checkout -b safe_branch</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-8-9)"
@@ -2217,14 +2217,14 @@ sodipodi:docname="06fig06-unmerge-private.svg">
    id="tspan4812">&lt;branch_with_good_commits&gt;</tspan></tspan></text>
     <text
        xml:space="preserve"
-       class="flowchart label"
-       x="59.65992"
+       class="flowchart instruction"
+       x="10"
        y="772.02448"
        id="text5098"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5100"
-         x="59.65992"
+         x="0"
          y="772.02448">checkout <tspan
    style="font-style:italic"
    id="tspan4824">&lt;branch_to_fix&gt;</tspan></tspan></text>

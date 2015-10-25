@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 500 450"
+   version="1.1"
+   width="1000px"
+   height="800px"
+   id="svg2">
+  <defs>
+   <style type="text/css">@import url('assets/svg-styles.css')</style> 
+    <marker
+       overflow="visible"
+       orient="auto"
+       refX="0"
+       refY="0"
+       id="Arrow2Lend-3-0">
+      <path
+         stroke-width=".625"
+         stroke="#000"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         fill-rule="evenodd"
+         d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"
+         stroke-linejoin="round"
+         id="path4440-7-3" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       refX="0"
+       refY="0"
+       id="Arrow2Lend-3-00">
+      <path
+         stroke-width=".625"
+         stroke="#000"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         fill-rule="evenodd"
+         d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"
+         stroke-linejoin="round"
+         id="path4440-7-7" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       refX="0"
+       refY="0"
+       id="Arrow2Lend-3-00-8">
+      <path
+         stroke-width=".625"
+         stroke="#000"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         fill-rule="evenodd"
+         d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"
+         stroke-linejoin="round"
+         id="path4440-7-7-4" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       refX="0"
+       refY="0"
+       id="Arrow2Lend-3-0-9">
+      <path
+         stroke-width=".625"
+         stroke="#000"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         fill-rule="evenodd"
+         d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"
+         stroke-linejoin="round"
+         id="path4440-7-3-4" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       refX="0"
+       refY="0"
+       id="Arrow2Lend-3-0-2">
+      <path
+         stroke-width=".625"
+         stroke="#000"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         fill-rule="evenodd"
+         d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"
+         stroke-linejoin="round"
+         id="path4440-7-3-5" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0 -422.36)"
+     id="layer1">
+    <g
+       transform="translate(-22.158 -114.27)"
+       id="g4410">
+      <rect
+         fill="#fff"
+         stroke-width="1.1109"
+         x="-345.82"
+         y="590.39"
+         stroke="#000"
+         width="71.165"
+         height="70.849"
+         transform="matrix(.77896 -.62707 .77896 .62707 0 0)"
+         id="rect4408" />
+      <text class="flowchart label"
+         xml:space="preserve"
+         x="245.7713"
+         y="588.67615"
+         id="text4400"><tspan
+           x="245.7713"
+           y="588.67615"
+           id="tspan5079">Is there a merge commit?</tspan></text>
+    </g>
+    <path
+       fill="none"
+       stroke-width="1px"
+       stroke="#000"
+       d="m167.05 472.45c-72.535-6.3773-76.062 4.2427-74.162 27.979"
+       marker-end="url(#Arrow2Lend-3-0)"
+       id="path4413-0-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-3-00)"
+       d="m 280.59087,472.63 c 76.76776,-5.40367 64.08975,2.72493 58.08773,30.11227"
+       id="path4413-0-2" />
+    <text
+       x="132.86258"
+       y="468.10544"
+       id="text4447"><tspan
+         y="468.10544"
+         x="132.86258"
+         id="tspan4449">no</tspan></text>
+    <text
+       x="312.25851"
+       y="466.9523"
+       id="text4451"><tspan
+         y="466.9523"
+         x="312.25851"
+         id="tspan4453">yes</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-3-0-9)"
+       d="M 78.341,597.11 C 18.920816,599.3 5.0644433,583.67797 17.628,644.97"
+       id="path4413-0-4-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-3-00-8)"
+       d="m 111.05,597.82 c 57.636,-4.0825 83.68283,-10.26555 57.84161,108.29437"
+       id="path4413-0-2-8" />
+    <g>
+      <text
+         x="46.040562"
+         y="593.05695"
+         line-height="125%"
+         xml:space="preserve"
+         style="line-height:125%;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="text4447-0"><tspan
+           y="593.05695"
+           x="46.040562"
+           id="tspan4449-4">no</tspan></text>
+      <text
+         x="150.47427"
+         y="593.05695"
+         line-height="125%"
+         xml:space="preserve"
+         style="line-height:125%;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="text4451-8"><tspan
+           y="593.05695"
+           x="150.47427"
+           id="tspan4453-7">yes</tspan></text>
+      <text
+         x="34.42857"
+         y="656.65942"
+         line-height="125%"
+         xml:space="preserve"
+         style="line-height:125%;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="text4552"><tspan
+           y="656.65942"
+           x="34.42857"
+           id="tspan4554">revert <tspan
+   id="tspan4328"
+   style="font-style:italic">&lt;commit&gt;</tspan></tspan></text>
+      <text
+         x="6.9727502"
+         y="715.62213"
+         line-height="125%"
+         xml:space="preserve"
+         style="line-height:125%;letter-spacing:0px;word-spacing:0px"
+         id="text4451-8-0"><tspan
+           y="715.62213"
+           x="106.59976"
+           id="tspan4453-7-5" /></text>
+      <text
+         x="97.814964"
+         y="512.48346"
+         line-height="125%"
+         xml:space="preserve"
+         style="line-height:125%;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="text5197"><tspan
+           y="512.48346"
+           x="97.814964"
+           id="tspan5199">branch --contains <tspan
+   id="tspan4326"
+   style="font-style:italic">&lt;commit&gt;</tspan></tspan></text>
+      <text class="flowchart instruction"
+         id="text4312"
+         y="717.2439"
+         x="92.730026"
+         xml:space="preserve"><tspan
+           style="text-align:start;text-anchor:start"
+           y="717.2439"
+           x="92.730026"
+           id="tspan4314">revert --no-commit <tspan
+   id="tspan4322"
+   style="font-style:italic">&lt;commit_keep&gt;</tspan>..<tspan
+   id="tspan4324"
+   style="font-style:italic">&lt;commit_reject&gt;</tspan></tspan><tspan
+           style="text-align:start;text-anchor:start"
+           id="tspan4318"
+           y="731.3064"
+           x="92.730026">add <tspan
+   id="tspan4320"
+   style="font-style:italic">&lt;filename(s)&gt;</tspan></tspan><tspan
+           style="text-align:start;text-anchor:start"
+           id="tspan4316"
+           y="745.3689"
+           x="92.730026">commit</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#Arrow2Lend-3-0-2)"
+       d="m 92.877184,515.08845 c 0,0 -3.261412,9.84682 4.125,34.04"
+       id="path4413-0-4-9" />
+    <g
+       transform="translate(-142.78 -9.3818)"
+       id="g4410-5">
+      <rect
+         fill="#fff"
+         stroke-width="1.2078"
+         x="-318.82"
+         y="587.28"
+         stroke="#000"
+         width="49.708"
+         height="51.115"
+         transform="matrix(.75506 -.65566 .75506 .65566 0 0)"
+         id="rect4408-3" />
+      <text class="flowchart label"
+         xml:space="preserve"
+         x="241.61461"
+         y="594.54559"
+         id="text4400-4"><tspan
+           x="241.61461"
+           y="594.54559"
+           id="tspan5079-7">Are the commits</tspan><tspan
+           x="241.61461"
+           y="608.60809"
+           id="tspan5246">sequential?</tspan></text>
+    </g>
+    <text class="flowchart instruction"
+       x="326.42194"
+       y="513.79071"
+       id="text5252"><tspan
+         y="513.79071"
+         x="326.42194"
+         id="tspan5256">revert --mainline <tspan
+   id="tspan4280"
+   style="font-style:italic">N &lt;commit&gt;</tspan></tspan></text>
+    <text
+       x="270.11502"
+       y="530.93353"
+       id="text5260" />
+    <text class="flowchart instruction detailed"
+       id="text4288"
+       y="530.25549"
+       x="326"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;"
+         y="530.25549"
+         x="326"
+         id="tspan4290">Typically <tspan
+   id="tspan4298"
+   style="font-style:italic;text-align:start;text-anchor:start;">N</tspan> = 1.</tspan><tspan
+         style="text-align:start;text-anchor:start;"
+         id="tspan4292"
+         y="544.31799"
+         x="326">Check with: git log --oneline --graph</tspan><tspan
+         style="text-align:start;text-anchor:start;"
+         id="tspan4294"
+         y="558.38049"
+         x="326">Count branch lanes from left to right to get <tspan
+   id="tspan4296"
+   style="font-style:italic;text-align:start;text-anchor:start;">N</tspan>.</tspan><tspan
+         style="text-align:start;text-anchor:start;"
+         id="tspan4300"
+         y="572.44299"
+         x="326"><tspan
+   id="tspan4302"
+   style="font-style:italic;text-align:start;text-anchor:start;">&lt;commit&gt;</tspan> must be a merge commit</tspan></text>
+    <text class="flowchart instruction detailed"
+       id="text4288-8"
+       y="669.20062"
+       x="0"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;"
+         id="tspan4300-2"
+         y="669.20062"
+         x="0">Repeat for each bad commit.</tspan></text>
+  </g>
+</svg>
