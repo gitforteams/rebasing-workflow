@@ -22,10 +22,10 @@ www.gitforteams.com
 (too long; didn't listen)
 
 
-## What is Rebasing?
+# What is Rebasing?
 
 
-### Rebasing: Official Definition
+# Rebasing: <br/>Official Definition
 
 Forward-port local commits to the updated upstream head.
 
@@ -33,12 +33,12 @@ Forward-port local commits to the updated upstream head.
 # o_O
 
 
-### Rebasing: English (ish) Definition
+# Rebasing: <br />English-ish Definition
 
 Move my branch-specific commits to a new branch tip.
 
 
-### Why We Rebase
+# Why We Rebase
 
 Incorporate upstream work without leaving a merge commit.
 
@@ -46,24 +46,24 @@ Incorporate upstream work without leaving a merge commit.
 <img alt="incorporate upstream rebase animation" src="assets/rebasing-update-branch.svg" class="inject_me" />
 
 
-## What is **Interactive** Rebasing?
+# What is **Interactive** Rebasing?
 
 replay a sequence of commits <br/>_while optionally changing each commit_.
 
 
-### Interactive Rebasing Makes History Easier to Read by <br />**Squashing** Related Commits into Whole Ideas
+## Interactive Rebasing Makes History Easier to Read by <br />**Squashing** Related Commits into Whole Ideas
 
 
 <img alt="squash rebase animation" src="assets/rebasing-interactive-squash.svg" class="inject_me" />
 
 
-### Interactive Rebasing Makes History Easier by <br/>**Editing** Unrelated Commits into Separate Ideas
+## Interactive Rebasing <br />Makes History Easier by <br/>**Editing** Unrelated Commits into Separate Ideas
 
 
 <img alt="edit commits rebase animation" src="assets/rebasing-interactive-edit.svg" class="inject_me" />
 
 
-## Why the Fuss?<br />Because TIMTOWTDI
+# Why the Fuss?<br />Because TIMTOWTDI
 
 - `pull` => `fetch` + `merge`
 - `merge --no-ff` => forces a merge commit object (“true merge”)
@@ -75,7 +75,7 @@ replay a sequence of commits <br/>_while optionally changing each commit_.
 NOTE: Pull request => fetch + merge with no fast forwards. Creates a merge commit. Often completed on a remote system with a one-click button. Forcing you into whatever workflow the UI has created for you. No flexibility! Merge request => setup the incoming work as a remote; review it locally; and then merge in the branch (or rebase!) however you would like. More steps to setup, but more control over how the work looks in the history graph.
 
 
-### Should I Use `merge` or `rebase`?
+# Should I Use<br/> `merge` or `rebase`?
 
 I will love you regardless of which strategy you use.
 
@@ -88,9 +88,11 @@ I will love you regardless of which strategy you use.
 ![merge to update](assets/merge-to-update.png)
 
 
-## What They Mean Is ...
+# What They Mean ...
 
-"I find bi-directional graphs difficult to read. Can I help you become more comfortable with rebasing to update your branches so that our shared project history is easier to read?"
+I find bi-directional graphs difficult to read.
+
+Can I help you become more comfortable with rebasing to update your branches so that our shared project history is easier to read?
 
 
 ### People Say: Merge Commits are "Messy"
@@ -99,9 +101,11 @@ I will love you regardless of which strategy you use.
 ![commit graph with no parents](assets/merge-commits-graphed.png)
 
 
-## What They Means Is ...
+# What They Mean ...
 
-"We merge a lot of little branches really, really frequently. Should we consider using `merge --ff-only`?"
+We merge a lot of little branches really, really frequently.
+
+Should we consider using `merge --ff-only`?
 
 
 See also: `git log --oneline --graph --no-merges`
@@ -110,9 +114,10 @@ See also: `git log --oneline --graph --no-merges`
 #  o_O
 
 
-# Let's talk about merges.
+# Let's talk <br />about merges.
 
 
+## Meanwhile, back in your repository...
 <img alt="merge vs. rebase graphs compared" src="assets/merge-types.svg" class="inject_me" />
 
 NOTE: Compare graphs from merge and rebase
@@ -192,7 +197,7 @@ $ git rerere
 Why I don't like rebasing.
 
 
-## Historical Revisionism
+# Historical Revisionism
 
 
 ## Git is Commit-Aware;<br />Not Branch Aware

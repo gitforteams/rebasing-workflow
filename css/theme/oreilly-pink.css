@@ -176,13 +176,14 @@ body {
   width: 50%; }
 
 .reveal pre code {
-  font-size: 1.5em;
+  font-size: 2em;
   max-height: inherit;
   overflow: none;
-  padding: 15px; }
+  padding: 15px;
+  line-height: 2em; }
 
 .reveal pre code span {
-  line-height: 1.3em; }
+  line-height: 2.4em; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled, .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
   border-bottom-color: #ddd; }

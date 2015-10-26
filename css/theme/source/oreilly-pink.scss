@@ -91,14 +91,15 @@ $linkColorHover: lighten( $linkColor, 40% );
 
 // Code
 .reveal pre code {
-  font-size: 1.5em;
+  font-size: 2em;
   max-height: inherit;
   overflow: none;
   padding: 15px;
+  line-height: 2em;
 }
 
 .reveal pre code span {
-  line-height: 1.3em;
+  line-height: 2.4em;
 }
 
 // Controls
