@@ -237,12 +237,19 @@ aka: make patches from pull requests
 Note: With a Web-based interface, we’re now seeing a lot more conversations happen alongside the code, with tiny commits and adjustments along the way. Previously this conversation might have happened in a mailing list, with patches attached. Same conversation, but the patches reflected whole “conclusions” up to that point. There were no micro commits in the repository history. In other words, when we moved to a web-based system with conversations, we essentially switched from conclusion-based commits to conversation artefacts.
 
 
-# Summary
+# Rebasing is Bad
 
-- The benefits of rebasing are most apparent to projects with multiple branches and multiple committers.
-- Rebasing allows you to reshape commit history so that you are storing conclusions, not conversations.
-- Rebasing can be used in place of merge to update a branch and results in a simplified graph of your repository history.
-- Rebasing can be used interactively to reshape a series of commits.
+- Commit objects are not mutable, only replaceable.
+- Changing a commit ID via rebasing can assign a new ID to a previous change.
+- Historical revisionism gives some people hives.
+- Zealots make it seem harder and more confusing than it is.
+
+
+# Rebasing is Good
+
+- Store conclusions, not conversations.
+- Simplify your graphed history when using rebase to update.
+- Shape a series of commits into a new history which shows your best side.
 
 
 
